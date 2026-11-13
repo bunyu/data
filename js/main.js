@@ -264,3 +264,8 @@ async function route() {
 
 window.addEventListener('hashchange', route);
 route();
+
+// Offline support / "Add to Home Screen" on iPhone.
+if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch((e) => console.warn('SW', e)));
+}

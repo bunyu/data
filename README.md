@@ -29,15 +29,30 @@ python3 -m http.server 8000
 # mở http://localhost:8000
 ```
 
-## Triển khai
+## Triển khai (GitHub Pages)
 
-Đây là trang tĩnh: có thể đưa lên GitHub Pages (Settings → Pages → Deploy from branch → `main` / root),
-Netlify, Cloudflare Pages hoặc Vercel. Lưu ý: GitHub Pages cho repo **riêng tư** cần gói GitHub trả phí.
+1. Đổi repo sang công khai: **Settings → General → Danger Zone → Change visibility → Make public**.
+2. **Settings → Pages → Build and deployment → Source: Deploy from a branch → `main` / `(root)` → Save**.
+3. Sau 1–2 phút, trang có tại `https://bunyu.github.io/data/`.
+
+Mọi đường dẫn trong ứng dụng là tương đối nên chạy được ở thư mục con `/data/`.
+
+## Dùng như ứng dụng trên iPhone
+
+Mở trang bằng **Safari** → nút **Chia sẻ** → **Thêm vào MH chính** (Add to Home Screen).
+Ứng dụng mở toàn màn hình, có biểu tượng riêng và dùng được khi không có mạng
+(bài học, thẻ từ và dữ liệu luyện viết được lưu sẵn sau lần mở đầu tiên).
+Lưu ý: tiến độ trong ứng dụng trên màn hình chính tách riêng với tiến độ trong Safari;
+dùng **Cá nhân → Sao lưu / Khôi phục** để chuyển.
+
+Khi cập nhật nội dung, tăng `VERSION` trong `sw.js` để điện thoại tải bản mới.
 
 ## Cấu trúc
 
 ```
 index.html            khung trang + thanh điều hướng dưới
+sw.js                 service worker (dùng offline)
+icons/                biểu tượng ứng dụng (iPhone, Android)
 css/app.css           giao diện (sáng/tối)
 js/main.js            định tuyến, trang chủ, bài học, cài đặt
 js/exercises.js       bài tập
@@ -50,4 +65,4 @@ vendor/               Hanzi Writer (MIT) + dữ liệu nét chữ (Arphic Public
 tools/vendor_hanzi.py đóng gói dữ liệu nét chữ cho các chữ trong bài
 ```
 
-Nội dung bài học được nhập từ giáo trình để học cá nhân; giữ repo ở chế độ riêng tư.
+Nội dung bài học được nhập từ giáo trình để học cá nhân.
