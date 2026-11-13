@@ -1,0 +1,21 @@
+{
+  "title": "Giáo trình New HSK 1",
+  "subtitle": "新HSK教程 1 · HSK 3.0",
+  "lessons": [
+    { "id": 1,  "file": "lessons/01.json", "zh": "AI小语，你好！", "pinyin": "AI Xiǎoyǔ, nǐ hǎo!", "vi": "Xin chào AI Tiểu Ngữ!", "page": 1, "grammar": [] },
+    { "id": 2,  "file": "lessons/02.json", "zh": "我叫李文", "pinyin": "Wǒ jiào Lǐ Wén", "vi": "Mình tên là Lý Văn", "page": 5, "grammar": ["Trật tự từ cơ bản của câu trong tiếng Trung Quốc"] },
+    { "id": 3,  "file": "lessons/03.json", "zh": "我是中国人", "pinyin": "Wǒ shì Zhōngguó rén", "vi": "Mình là người Trung Quốc", "page": 10, "grammar": ["Câu chữ “是”", "Trợ từ kết cấu “的”", "Câu hỏi “có… (hay) không?” với “吗”"] },
+    { "id": 4,  "zh": "我有两个孩子", "vi": "Chị có hai con", "page": 18, "grammar": ["Câu chữ “有” (1)", "Cách diễn đạt các con số", "Trợ từ ngữ khí “呢” (1)", "Danh lượng từ và cấu trúc danh lượng"] },
+    { "id": 5,  "zh": "今天我休息", "vi": "Hôm nay anh được nghỉ", "page": 27, "grammar": ["Cách diễn đạt thời gian (1)", "Câu vị ngữ danh từ", "Động từ năng nguyện “会”"] },
+    { "id": 6,  "zh": "你的手机号是多少？", "vi": "Số điện thoại di động của bạn là bao nhiêu?", "page": 35, "grammar": ["Động từ năng nguyện “想”", "Câu liên động (1)", "Đại từ nghi vấn “怎么”"] },
+    { "id": 7,  "zh": "我晚上六点半下班", "vi": "Em tan làm lúc 6 rưỡi tối", "page": 45, "grammar": ["Cách diễn đạt thời gian (2)", "Trợ từ ngữ khí “吧” (1)", "Vị trí của phó từ, từ chỉ thời gian khi làm trạng ngữ", "Trợ từ ngữ khí “呢” (2)"] },
+    { "id": 8,  "zh": "我爸爸也在医院工作", "vi": "Bố em cũng làm việc ở bệnh viện", "page": 54, "grammar": ["Phương vị từ", "Giới từ “在”", "Động từ năng nguyện “能”"] },
+    { "id": 9,  "zh": "我明天上午在学校学习", "vi": "Sáng mai mình học ở trường", "page": 61, "grammar": ["Câu tồn hiện (1)", "Trật tự của từ chỉ thời gian và nơi chốn khi cùng làm trạng ngữ", "“第” biểu thị số thứ tự"] },
+    { "id": 10, "zh": "这儿的苹果真便宜！", "vi": "Táo ở đây rẻ thật!", "page": 70, "grammar": ["Cách diễn đạt số tiền", "Câu vị ngữ tính từ", "Đại từ nghi vấn “怎么样”"] },
+    { "id": 11, "zh": "我读大学呢", "vi": "Em đang học đại học", "page": 78, "grammar": ["Câu hỏi chính phản", "Phó từ chỉ thời gian “在/正在”", "Động từ năng nguyện “要”"] },
+    { "id": 12, "zh": "昨天下雪了", "vi": "Hôm qua tuyết rơi rồi", "page": 86, "grammar": ["Câu phi chủ vị", "Trợ từ ngữ khí “了” (1)", "Cấu trúc “太……了”"] },
+    { "id": 13, "zh": "请给我一杯茶", "vi": "Cho tôi một cốc trà", "page": 95, "grammar": ["Động từ năng nguyện “可以”", "Cấu trúc “động từ + 一下”", "Câu có hai tân ngữ (1)"] },
+    { "id": 14, "zh": "我看了一个电影", "vi": "Mình đã xem một bộ phim", "page": 103, "grammar": ["Trợ từ động thái “了” (2)", "Từ li hợp (1)", "Phó từ chỉ phạm vi “都”"] },
+    { "id": 15, "zh": "大兴机场见！", "vi": "Hẹn gặp ở sân bay Đại Hưng!", "page": 112, "grammar": ["Câu ghép đẳng lập “……，还/也……”"] }
+  ]
+}

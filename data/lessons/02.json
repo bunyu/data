@@ -1,0 +1,398 @@
+{
+  "id": 2,
+  "zh": "我叫李文",
+  "pinyin": "Wǒ jiào Lǐ Wén",
+  "vi": "Mình tên là Lý Văn",
+  "source": "Giáo trình New HSK 1, tr. 5–9",
+  "objectives": [
+    "Nghe hiểu và tự giới thiệu họ tên mình bằng tiếng Trung Quốc.",
+    "Nghe hiểu và sử dụng được cách nói xin lỗi: dùng “对不起” để xin lỗi và đáp lại bằng “没关系”.",
+    "Nắm vững trật tự từ cơ bản của câu trong tiếng Trung Quốc.",
+    "Hiểu về cấu trúc họ tên của người Trung Quốc."
+  ],
+  "speakers": {
+    "yf": {
+      "zh": "王一飞",
+      "pinyin": "Wáng Yīfēi",
+      "vi": "Vương Nhất Phi"
+    },
+    "tz": {
+      "zh": "陈天中",
+      "pinyin": "Chén Tiānzhōng",
+      "vi": "Trần Thiên Trung"
+    },
+    "jy": {
+      "zh": "白家月",
+      "pinyin": "Bái Jiāyuè",
+      "vi": "Bạch Gia Nguyệt"
+    },
+    "lw": {
+      "zh": "李文",
+      "pinyin": "Lǐ Wén",
+      "vi": "Lý Văn"
+    }
+  },
+  "vocab": [
+    {
+      "id": "2-01",
+      "hanzi": "请问",
+      "pinyin": "qǐngwèn",
+      "pos": "v",
+      "vi": "xin hỏi"
+    },
+    {
+      "id": "2-02",
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "pos": "pron",
+      "vi": "bạn, anh, chị, em… (ngôi thứ hai số ít)"
+    },
+    {
+      "id": "2-03",
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "pos": "v",
+      "vi": "gọi là, tên là"
+    },
+    {
+      "id": "2-04",
+      "hanzi": "什么",
+      "pinyin": "shénme",
+      "pos": "pron",
+      "vi": "gì, cái gì"
+    },
+    {
+      "id": "2-05",
+      "hanzi": "名字",
+      "pinyin": "míngzi",
+      "pos": "n",
+      "vi": "tên"
+    },
+    {
+      "id": "2-06",
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "pos": "pron",
+      "vi": "tôi, mình… (ngôi thứ nhất số ít)"
+    },
+    {
+      "id": "2-07",
+      "hanzi": "不",
+      "pinyin": "bù",
+      "pos": "adv",
+      "vi": "không"
+    },
+    {
+      "id": "2-08",
+      "hanzi": "是",
+      "pinyin": "shì",
+      "pos": "v",
+      "vi": "là"
+    },
+    {
+      "id": "2-09",
+      "hanzi": "对不起",
+      "pinyin": "duìbuqǐ",
+      "pos": "v",
+      "vi": "xin lỗi"
+    },
+    {
+      "id": "2-10",
+      "hanzi": "没关系",
+      "pinyin": "méi guānxi",
+      "pos": "",
+      "vi": "không sao, không có gì"
+    },
+    {
+      "id": "2-11",
+      "hanzi": "没事",
+      "pinyin": "méishì",
+      "pos": "v",
+      "vi": "không sao, không có gì"
+    },
+    {
+      "id": "2-12",
+      "hanzi": "很",
+      "pinyin": "hěn",
+      "pos": "adv",
+      "vi": "rất"
+    },
+    {
+      "id": "2-13",
+      "hanzi": "高兴",
+      "pinyin": "gāoxìng",
+      "pos": "adj",
+      "vi": "vui, vui vẻ"
+    },
+    {
+      "id": "2-14",
+      "hanzi": "认识",
+      "pinyin": "rènshi",
+      "pos": "v",
+      "vi": "quen, làm quen"
+    },
+    {
+      "id": "2-15",
+      "hanzi": "也",
+      "pinyin": "yě",
+      "pos": "adv",
+      "vi": "cũng"
+    }
+  ],
+  "texts": [
+    {
+      "id": "2-1",
+      "title": "Bài khoá 1",
+      "audio": "2-1",
+      "context": "Vương Nhất Phi đang làm quen với học sinh ở trong lớp học.",
+      "note": "“请问” là một kính ngữ, được sử dụng khi đề nghị ai đó trả lời câu hỏi.",
+      "lines": [
+        {
+          "s": "yf",
+          "zh": "请问，你叫什么名字？",
+          "pinyin": "Qǐngwèn, nǐ jiào shénme míngzi?",
+          "vi": "Xin hỏi, em tên là gì?"
+        },
+        {
+          "s": "tz",
+          "zh": "我叫陈天中。",
+          "pinyin": "Wǒ jiào Chén Tiānzhōng.",
+          "vi": "Em tên là Trần Thiên Trung ạ."
+        }
+      ]
+    },
+    {
+      "id": "2-3",
+      "title": "Bài khoá 2",
+      "audio": "2-3",
+      "context": "Trần Thiên Trung đã nhầm Bạch Gia Nguyệt với người khác khi chào hỏi cô ấy ở trong khuôn viên trường.",
+      "note": "Trong văn nói, mọi người cũng dùng “没事” hoặc “没事没事” thay cho “没关系”.",
+      "lines": [
+        {
+          "s": "tz",
+          "zh": "你好，安妮！",
+          "pinyin": "Nǐ hǎo, Ānnī!",
+          "vi": "Chào Annie!"
+        },
+        {
+          "s": "jy",
+          "zh": "你好，陈天中！我不是安妮，我是白家月。",
+          "pinyin": "Nǐ hǎo, Chén Tiānzhōng! Wǒ bú shì Ānnī, wǒ shì Bái Jiāyuè.",
+          "vi": "Chào Trần Thiên Trung! Mình không phải là Annie, mình là Bạch Gia Nguyệt."
+        },
+        {
+          "s": "tz",
+          "zh": "对不起！",
+          "pinyin": "Duìbuqǐ!",
+          "vi": "Xin lỗi bạn!"
+        },
+        {
+          "s": "jy",
+          "zh": "没关系！",
+          "pinyin": "Méi guānxi!",
+          "vi": "Không sao đâu!"
+        }
+      ]
+    },
+    {
+      "id": "2-5",
+      "title": "Bài khoá 3",
+      "audio": "2-5",
+      "context": "Lý Văn và Bạch Gia Nguyệt lần đầu gặp nhau trong khuôn viên trường.",
+      "note": "Họ tên của người Trung Quốc gồm: họ + tên (姓 + 名). Ví dụ: 李 (họ) + 文 (tên).",
+      "lines": [
+        {
+          "s": "lw",
+          "zh": "你好！我叫李文。",
+          "pinyin": "Nǐ hǎo! Wǒ jiào Lǐ Wén.",
+          "vi": "Chào bạn! Mình tên là Lý Văn."
+        },
+        {
+          "s": "jy",
+          "zh": "你好！我叫白家月。",
+          "pinyin": "Nǐ hǎo! Wǒ jiào Bái Jiāyuè.",
+          "vi": "Xin chào! Mình tên là Bạch Gia Nguyệt."
+        },
+        {
+          "s": "lw",
+          "zh": "很高兴认识你。",
+          "pinyin": "Hěn gāoxìng rènshi nǐ.",
+          "vi": "Rất vui được làm quen với bạn."
+        },
+        {
+          "s": "jy",
+          "zh": "认识你我也很高兴。",
+          "pinyin": "Rènshi nǐ wǒ yě hěn gāoxìng.",
+          "vi": "Mình cũng rất vui được làm quen với bạn."
+        }
+      ]
+    }
+  ],
+  "rhyme": {
+    "audio": "2-7",
+    "lines": [
+      {
+        "zh": "七加一，再减一，",
+        "pinyin": "Qī jiā yī, zài jiǎn yī,",
+        "vi": "Bảy cộng một, lại trừ một."
+      },
+      {
+        "zh": "加完减完等于几？",
+        "pinyin": "jiāwán jiǎnwán děngyú jǐ?",
+        "vi": "Cộng xong trừ xong thì bằng mấy?"
+      },
+      {
+        "zh": "加完减完还是七。",
+        "pinyin": "Jiāwán jiǎnwán háishi qī.",
+        "vi": "Cộng xong trừ xong vẫn là bảy."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "2-g1",
+      "zh": "汉语的基本语序",
+      "vi": "Trật tự từ cơ bản của câu trong tiếng Trung Quốc",
+      "explain": "Trật tự từ cơ bản của câu trong tiếng Trung Quốc là: Chủ ngữ + Vị ngữ + Tân ngữ. Ví dụ: 我 (chủ ngữ) 叫 (vị ngữ) 陈天中 (tân ngữ).",
+      "pattern": "Chủ ngữ + Vị ngữ + Tân ngữ",
+      "examples": [
+        {
+          "zh": "你叫什么名字？",
+          "pinyin": "Nǐ jiào shénme míngzi?",
+          "vi": "Bạn tên là gì?"
+        },
+        {
+          "zh": "我叫白家月。",
+          "pinyin": "Wǒ jiào Bái Jiāyuè.",
+          "vi": "Mình tên là Bạch Gia Nguyệt."
+        },
+        {
+          "zh": "我是学生。",
+          "pinyin": "Wǒ shì xuéshēng.",
+          "vi": "Mình là học sinh."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill",
+      "sentence": "请问，你叫___名字？",
+      "vi": "Xin hỏi, bạn tên là gì?",
+      "options": [
+        "什么",
+        "也",
+        "很",
+        "不"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill",
+      "sentence": "我___是安妮，我是白家月。",
+      "vi": "Mình không phải là Annie, mình là Bạch Gia Nguyệt.",
+      "options": [
+        "不",
+        "很",
+        "也",
+        "叫"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill",
+      "sentence": "认识你我___很高兴。",
+      "vi": "Mình cũng rất vui được làm quen với bạn.",
+      "options": [
+        "也",
+        "不",
+        "是",
+        "叫"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "choice",
+      "prompt": "Ai đó nói “对不起！”. Bạn đáp lại:",
+      "options": [
+        "没关系！",
+        "谢谢！",
+        "再见！",
+        "你好！"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "choice",
+      "prompt": "“很高兴认识你” nghĩa là:",
+      "options": [
+        "Rất vui được làm quen với bạn",
+        "Bạn tên là gì?",
+        "Xin lỗi bạn",
+        "Mình cũng là học sinh"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "order",
+      "vi": "Mình tên là Lý Văn.",
+      "tiles": [
+        "叫",
+        "我",
+        "李文",
+        "。"
+      ],
+      "answer": "我叫李文。"
+    },
+    {
+      "type": "order",
+      "vi": "Rất vui được làm quen với bạn.",
+      "tiles": [
+        "认识",
+        "很",
+        "你",
+        "高兴",
+        "。"
+      ],
+      "answer": "很高兴认识你。",
+      "accept": [
+        "认识你很高兴。"
+      ]
+    },
+    {
+      "type": "order",
+      "vi": "Mình là học sinh.",
+      "tiles": [
+        "学生",
+        "是",
+        "我",
+        "。"
+      ],
+      "answer": "我是学生。"
+    },
+    {
+      "type": "listen",
+      "say": "我不是安妮，我是白家月。",
+      "prompt": "Người nói tên là gì?",
+      "options": [
+        "白家月",
+        "安妮",
+        "陈天中",
+        "李文"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "listen",
+      "say": "请问，你叫什么名字？",
+      "prompt": "Người nói đang hỏi gì?",
+      "options": [
+        "Hỏi tên",
+        "Xin lỗi",
+        "Chào tạm biệt",
+        "Hỏi quốc tịch"
+      ],
+      "answer": 0
+    }
+  ]
+}
