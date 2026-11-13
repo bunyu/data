@@ -1,0 +1,10 @@
+{
+  "name": "HSK 1 · Học tiếng Trung",
+  "short_name": "HSK 1",
+  "lang": "vi",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f4ef",
+  "theme_color": "#f6f4ef",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

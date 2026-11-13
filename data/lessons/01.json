@@ -1,0 +1,356 @@
+{
+  "id": 1,
+  "zh": "AI小语，你好！",
+  "pinyin": "AI Xiǎoyǔ, nǐ hǎo!",
+  "vi": "Xin chào AI Tiểu Ngữ!",
+  "source": "Giáo trình New HSK 1, tr. 1–4",
+  "objectives": [
+    "Nghe hiểu và sử dụng được ngôn ngữ lịch sự để chào hỏi, cảm ơn và tạm biệt.",
+    "Hiểu về nghi thức giao tiếp tiếng Trung Quốc, nghe hiểu và sử dụng được đại từ nhân xưng ngôi thứ hai mang tính trang trọng “您”."
+  ],
+  "speakers": {
+    "yf": {
+      "zh": "王一飞",
+      "pinyin": "Wáng Yīfēi",
+      "vi": "Vương Nhất Phi"
+    },
+    "xy": {
+      "zh": "小语",
+      "pinyin": "Xiǎoyǔ",
+      "vi": "Tiểu Ngữ"
+    },
+    "xs": {
+      "zh": "学生们",
+      "pinyin": "xuéshēngmen",
+      "vi": "Học sinh"
+    }
+  },
+  "vocab": [
+    {
+      "id": "1-01",
+      "hanzi": "你好",
+      "pinyin": "nǐ hǎo",
+      "pos": "",
+      "vi": "xin chào, chào bạn"
+    },
+    {
+      "id": "1-p1",
+      "hanzi": "王老师",
+      "pinyin": "Wáng lǎoshī",
+      "pos": "",
+      "vi": "cô Vương",
+      "proper": true
+    },
+    {
+      "id": "1-02",
+      "hanzi": "大家",
+      "pinyin": "dàjiā",
+      "pos": "pron",
+      "vi": "mọi người"
+    },
+    {
+      "id": "1-03",
+      "hanzi": "好",
+      "pinyin": "hǎo",
+      "pos": "adj",
+      "vi": "tốt, khoẻ"
+    },
+    {
+      "id": "1-04",
+      "hanzi": "学生",
+      "pinyin": "xuéshēng",
+      "pos": "n",
+      "vi": "học sinh, sinh viên"
+    },
+    {
+      "id": "1-05",
+      "hanzi": "们",
+      "pinyin": "men",
+      "pos": "suffix",
+      "vi": "dùng sau đại từ nhân xưng hoặc danh từ để chỉ số nhiều"
+    },
+    {
+      "id": "1-06",
+      "hanzi": "老师",
+      "pinyin": "lǎoshī",
+      "pos": "n",
+      "vi": "thầy giáo, cô giáo, giáo viên"
+    },
+    {
+      "id": "1-07",
+      "hanzi": "您",
+      "pinyin": "nín",
+      "pos": "pron",
+      "vi": "ngài, ông, bà… (ngôi thứ hai, trang trọng)"
+    },
+    {
+      "id": "1-08",
+      "hanzi": "你们",
+      "pinyin": "nǐmen",
+      "pos": "pron",
+      "vi": "các bạn, các anh, các chị… (ngôi thứ hai số nhiều)"
+    },
+    {
+      "id": "1-09",
+      "hanzi": "谢谢",
+      "pinyin": "xièxie",
+      "pos": "v",
+      "vi": "cảm ơn"
+    },
+    {
+      "id": "1-10",
+      "hanzi": "不客气",
+      "pinyin": "bú kèqi",
+      "pos": "",
+      "vi": "đừng khách sáo, không cần khách khí"
+    },
+    {
+      "id": "1-11",
+      "hanzi": "同学",
+      "pinyin": "tóngxué",
+      "pos": "n",
+      "vi": "bạn học"
+    },
+    {
+      "id": "1-12",
+      "hanzi": "再见",
+      "pinyin": "zàijiàn",
+      "pos": "v",
+      "vi": "tạm biệt"
+    }
+  ],
+  "texts": [
+    {
+      "id": "1-1",
+      "title": "Bài khoá 1",
+      "audio": "1-1",
+      "context": "Ngày đầu tiên đi học, Vương Nhất Phi chào hỏi trợ giảng AI Tiểu Ngữ ở trong văn phòng.",
+      "lines": [
+        {
+          "s": "yf",
+          "zh": "AI小语，你好！",
+          "pinyin": "AI Xiǎoyǔ, nǐ hǎo!",
+          "vi": "Xin chào AI Tiểu Ngữ!"
+        },
+        {
+          "s": "xy",
+          "zh": "王老师，你好！",
+          "pinyin": "Wáng lǎoshī, nǐ hǎo!",
+          "vi": "Chào cô Vương!"
+        }
+      ]
+    },
+    {
+      "id": "1-3",
+      "title": "Bài khoá 2",
+      "audio": "1-3",
+      "context": "Ngày đầu tiên đi học, các bạn học sinh học cách diễn đạt chào hỏi tại lớp.",
+      "note": "“您” là đại từ nhân xưng mang sắc thái trang trọng, được dùng để xưng hô với người lớn tuổi hoặc những người mà bạn kính trọng.",
+      "lines": [
+        {
+          "s": "yf",
+          "zh": "大家好！",
+          "pinyin": "Dàjiā hǎo!",
+          "vi": "Chào cả lớp!"
+        },
+        {
+          "s": "xs",
+          "zh": "老师，您好！",
+          "pinyin": "Lǎoshī, nín hǎo!",
+          "vi": "Chào cô ạ!"
+        },
+        {
+          "s": "xy",
+          "zh": "你们好！",
+          "pinyin": "Nǐmen hǎo!",
+          "vi": "Chào các bạn!"
+        },
+        {
+          "s": "xs",
+          "zh": "你好，小语！",
+          "pinyin": "Nǐ hǎo, Xiǎoyǔ!",
+          "vi": "Chào Tiểu Ngữ!"
+        }
+      ]
+    },
+    {
+      "id": "1-5",
+      "title": "Bài khoá 3",
+      "audio": "1-5",
+      "context": "Ngày đầu tiên đi học, các bạn học sinh học các mẫu câu cảm ơn và tạm biệt ở trong lớp học.",
+      "lines": [
+        {
+          "s": "xs",
+          "zh": "谢谢！",
+          "pinyin": "Xièxie!",
+          "vi": "Cảm ơn bạn!"
+        },
+        {
+          "s": "xy",
+          "zh": "不客气！",
+          "pinyin": "Bú kèqi!",
+          "vi": "Đừng khách sáo!"
+        },
+        {
+          "s": "yf",
+          "zh": "同学们，再见！",
+          "pinyin": "Tóngxuémen, zàijiàn!",
+          "vi": "Tạm biệt các em!"
+        },
+        {
+          "s": "xs",
+          "zh": "老师，再见！",
+          "pinyin": "Lǎoshī, zàijiàn!",
+          "vi": "Tạm biệt cô ạ!"
+        }
+      ]
+    }
+  ],
+  "rhyme": {
+    "audio": "1-7",
+    "lines": [
+      {
+        "zh": "妈种麻，我放马。",
+        "pinyin": "Mā zhòng má, wǒ fàng mǎ.",
+        "vi": "Mẹ trồng cây gai, tôi thả ngựa."
+      },
+      {
+        "zh": "马吃麻，妈骂马。",
+        "pinyin": "Mǎ chī má, mā mà mǎ.",
+        "vi": "Ngựa ăn cây gai, mẹ mắng ngựa."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "id": "1-g1",
+      "zh": "您 和 你",
+      "vi": "Cách dùng “您” (trang trọng) và “你”",
+      "note": "Bổ sung để ôn tập, dựa trên phần “Tiểu Ngữ giúp sức” của bài 1.",
+      "explain": "“你” dùng với bạn bè, người ngang hàng. “您” là cách xưng hô kính trọng, dùng với người lớn tuổi, thầy cô hoặc người mình kính trọng. Thêm “们” sau “你” để chỉ số nhiều: 你们.",
+      "pattern": "老师，您好！ · 你们好！",
+      "examples": [
+        {
+          "zh": "老师，您好！",
+          "pinyin": "Lǎoshī, nín hǎo!",
+          "vi": "Chào cô ạ!"
+        },
+        {
+          "zh": "你们好！",
+          "pinyin": "Nǐmen hǎo!",
+          "vi": "Chào các bạn!"
+        },
+        {
+          "zh": "同学们，再见！",
+          "pinyin": "Tóngxuémen, zàijiàn!",
+          "vi": "Tạm biệt các em!"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "choice",
+      "prompt": "Bạn gặp giáo viên. Câu chào lịch sự nhất là:",
+      "options": [
+        "老师，您好！",
+        "你们好！",
+        "再见！",
+        "不客气！"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "choice",
+      "prompt": "Ai đó nói “谢谢！”. Bạn đáp lại:",
+      "options": [
+        "你好！",
+        "不客气！",
+        "再见！",
+        "大家好！"
+      ],
+      "answer": 1
+    },
+    {
+      "type": "choice",
+      "prompt": "Giáo viên chào cả lớp, câu nào phù hợp?",
+      "options": [
+        "大家好！",
+        "老师，再见！",
+        "谢谢！",
+        "您好！"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill",
+      "sentence": "同学们，___！",
+      "vi": "Tạm biệt các em!",
+      "options": [
+        "再见",
+        "谢谢",
+        "您好",
+        "不客气"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "fill",
+      "sentence": "老师，___好！",
+      "vi": "Chào cô ạ! (trang trọng)",
+      "options": [
+        "您",
+        "们",
+        "大家",
+        "同学"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "order",
+      "vi": "Chào các bạn!",
+      "tiles": [
+        "你",
+        "们",
+        "好",
+        "！"
+      ],
+      "answer": "你们好！"
+    },
+    {
+      "type": "order",
+      "vi": "Tạm biệt cô ạ!",
+      "tiles": [
+        "老师",
+        "，",
+        "再见",
+        "！"
+      ],
+      "answer": "老师，再见！"
+    },
+    {
+      "type": "listen",
+      "say": "不客气！",
+      "prompt": "Nghe và chọn nghĩa đúng:",
+      "options": [
+        "Đừng khách sáo!",
+        "Cảm ơn!",
+        "Tạm biệt!",
+        "Xin chào!"
+      ],
+      "answer": 0
+    },
+    {
+      "type": "listen",
+      "say": "同学们，再见！",
+      "prompt": "Người nói đang làm gì?",
+      "options": [
+        "Chào tạm biệt các học sinh",
+        "Cảm ơn giáo viên",
+        "Hỏi tên bạn học",
+        "Chào buổi sáng"
+      ],
+      "answer": 0
+    }
+  ]
+}
