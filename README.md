@@ -16,8 +16,8 @@ dành cho người học trưởng thành. Giao diện tiếng Việt, ưu tiên
 
 ## Nội dung hiện có
 
-Mục lục đủ 15 bài. Bài 1–3 đã nhập đầy đủ từ giáo trình (tr. 1–17). Các bài 4–15 hiển thị
-"Sắp có" kèm danh sách ngữ pháp. Cách thêm bài: xem [docs/CONTENT_FORMAT.md](docs/CONTENT_FORMAT.md).
+Đủ 15 bài, đã nhập đầy đủ từ giáo trình (tr. 1–119): từ vựng, 3 bài khoá, ngữ pháp và bài tập của từng bài.
+Cách sửa hoặc thêm nội dung: xem [docs/CONTENT_FORMAT.md](docs/CONTENT_FORMAT.md).
 File âm thanh của sách: xem [audio/README.md](audio/README.md).
 
 ## Chạy thử

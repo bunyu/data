@@ -1,6 +1,6 @@
 // Offline support: the app, lessons and handwriting data are cached on first visit.
 // Bump VERSION when shipping changes so old caches are cleared.
-const VERSION = 'hsk1-v1';
+const VERSION = 'hsk1-v2';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'icon.svg',
   'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png',

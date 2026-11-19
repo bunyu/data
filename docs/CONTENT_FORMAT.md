@@ -34,7 +34,7 @@ bài chưa có `"file"` hiển thị "Sắp có" cùng danh sách ngữ pháp.
 - `id` phải duy nhất trong toàn bộ khoá học — tiến độ ôn tập (spaced repetition) lưu theo `id`.
   Quy ước: `<bài>-<số thứ tự trong sách>`, danh từ riêng dùng `<bài>-p<n>` và `"proper": true`.
 - `pos`: `n` danh từ · `pron` đại từ · `v` động từ · `adj` tính từ · `adv` phó từ · `part` trợ từ ·
-  `interj` thán từ · `num` số từ · `mw` lượng từ · `prep` giới từ · `conj` liên từ · `suffix` hậu tố.
+  `interj` thán từ · `num` số từ · `mw` lượng từ · `prep` giới từ · `conj` liên từ · `suffix` hậu tố · `prefix` tiền tố · `modal` động từ năng nguyện.
   Để trống nếu sách không ghi.
 
 ### Bài khoá

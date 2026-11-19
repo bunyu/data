@@ -80,7 +80,7 @@ export function revealToggles(root) {
 export const POS = {
   n: 'danh từ', pron: 'đại từ', v: 'động từ', adj: 'tính từ', adv: 'phó từ',
   part: 'trợ từ', interj: 'thán từ', num: 'số từ', mw: 'lượng từ', prep: 'giới từ',
-  conj: 'liên từ', suffix: 'hậu tố',
+  conj: 'liên từ', suffix: 'hậu tố', modal: 'động từ năng nguyện', prefix: 'tiền tố',
 };
 
 export function shuffle(arr) {

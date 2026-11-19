@@ -1,0 +1,124 @@
+{
+  "id": 5,
+  "zh": "今天我休息",
+  "pinyin": "Jīntiān wǒ xiūxi",
+  "vi": "Hôm nay anh được nghỉ",
+  "source": "Giáo trình New HSK 1, tr. 27–34",
+  "objectives": [
+    "Nghe hiểu, đọc hiểu và miêu tả được ngày tháng xảy ra sự việc hoặc hành động theo cách diễn đạt thông thường trong tiếng Trung Quốc.",
+    "Nghe hiểu và sử dụng được động từ năng nguyện “会” để diễn đạt việc biết hoặc có khả năng làm một việc gì đó.",
+    "Nắm vững cách sử dụng của câu vị ngữ danh từ."
+  ],
+  "speakers": {
+    "lm": { "zh": "刘明", "pinyin": "Liú Míng", "vi": "Lưu Minh" },
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" },
+    "tl": { "zh": "杨同乐", "pinyin": "Yáng Tónglè", "vi": "Dương Đồng Lạc" }
+  },
+  "vocab": [
+    { "id": "5-01", "hanzi": "今天", "pinyin": "jīntiān", "pos": "n", "vi": "hôm nay" },
+    { "id": "5-02", "hanzi": "号", "pinyin": "hào", "pos": "mw", "vi": "ngày, mùng" },
+    { "id": "5-03", "hanzi": "月", "pinyin": "yuè", "pos": "n", "vi": "tháng" },
+    { "id": "5-04", "hanzi": "日", "pinyin": "rì", "pos": "mw", "vi": "ngày" },
+    { "id": "5-05", "hanzi": "星期", "pinyin": "xīngqī", "pos": "n", "vi": "thứ, tuần" },
+    { "id": "5-06", "hanzi": "星期日", "pinyin": "Xīngqīrì", "pos": "n", "vi": "Chủ nhật" },
+    { "id": "5-07", "hanzi": "星期天", "pinyin": "Xīngqītiān", "pos": "n", "vi": "Chủ nhật" },
+    { "id": "5-08", "hanzi": "休息", "pinyin": "xiūxi", "pos": "v", "vi": "nghỉ, nghỉ ngơi" },
+    { "id": "5-09", "hanzi": "会", "pinyin": "huì", "pos": "modal", "vi": "biết, có thể" },
+    { "id": "5-10", "hanzi": "做饭", "pinyin": "zuò fàn", "pos": "", "vi": "nấu ăn" },
+    { "id": "5-11", "hanzi": "做", "pinyin": "zuò", "pos": "v", "vi": "làm, nấu" },
+    { "id": "5-12", "hanzi": "面条儿", "pinyin": "miàntiáor", "pos": "n", "vi": "mì, mì sợi" },
+    { "id": "5-13", "hanzi": "饺子", "pinyin": "jiǎozi", "pos": "n", "vi": "sủi cảo" },
+    { "id": "5-14", "hanzi": "一些", "pinyin": "yìxiē", "pos": "num", "vi": "một số, một vài" },
+    { "id": "5-15", "hanzi": "菜", "pinyin": "cài", "pos": "n", "vi": "món ăn, rau" },
+    { "id": "5-16", "hanzi": "下班", "pinyin": "xiàbān", "pos": "v", "vi": "tan làm, tan ca" },
+    { "id": "5-17", "hanzi": "新", "pinyin": "xīn", "pos": "adj", "vi": "mới" },
+    { "id": "5-18", "hanzi": "电脑", "pinyin": "diànnǎo", "pos": "n", "vi": "máy tính, máy vi tính" },
+    { "id": "5-19", "hanzi": "真", "pinyin": "zhēn", "pos": "adv", "vi": "thật, thực sự" },
+    { "id": "5-20", "hanzi": "好看", "pinyin": "hǎokàn", "pos": "adj", "vi": "đẹp" },
+    { "id": "5-21", "hanzi": "喜欢", "pinyin": "xǐhuan", "pos": "v", "vi": "thích" },
+    { "id": "5-22", "hanzi": "它", "pinyin": "tā", "pos": "pron", "vi": "nó" }
+  ],
+  "texts": [
+    {
+      "id": "5-1", "title": "Bài khoá 1", "audio": "5-1",
+      "context": "Lưu Minh và Vương Nhất Tuyết đang trò chuyện ở trong nhà.",
+      "note": "Ngày 8 tháng 9 cũng có thể được diễn đạt là “9月8日”. Chủ nhật cũng có thể nói là “星期天”.",
+      "lines": [
+        { "s": "yx", "zh": "今天几号？", "pinyin": "Jīntiān jǐ hào?", "vi": "Hôm nay ngày mấy anh nhỉ?" },
+        { "s": "lm", "zh": "今天9月8号。", "pinyin": "Jīntiān jiǔ yuè bā hào.", "vi": "Hôm nay là ngày 8 tháng 9." },
+        { "s": "yx", "zh": "星期几？", "pinyin": "Xīngqī jǐ?", "vi": "Thứ mấy vậy?" },
+        { "s": "lm", "zh": "星期日。今天我休息。", "pinyin": "Xīngqīrì. Jīntiān wǒ xiūxi.", "vi": "Chủ nhật. Hôm nay anh được nghỉ." }
+      ]
+    },
+    {
+      "id": "5-3", "title": "Bài khoá 2", "audio": "5-3",
+      "context": "Vương Nhất Tuyết và Dương Đồng Lạc đang trò chuyện trong giờ nghỉ tại công ty.",
+      "lines": [
+        { "s": "yx", "zh": "你会做饭吗？", "pinyin": "Nǐ huì zuò fàn ma?", "vi": "Em có biết nấu ăn không?" },
+        { "s": "tl", "zh": "我会做。", "pinyin": "Wǒ huì zuò.", "vi": "Em biết." },
+        { "s": "yx", "zh": "你会做什么？", "pinyin": "Nǐ huì zuò shénme?", "vi": "Em biết nấu món gì?" },
+        { "s": "tl", "zh": "我会做面条儿、饺子，也会做一些菜。星期天我也做饭。", "pinyin": "Wǒ huì zuò miàntiáor, jiǎozi, yě huì zuò yìxiē cài. Xīngqītiān wǒ yě zuò fàn.", "vi": "Em biết nấu mì, sủi cảo và biết chế biến một số món ăn khác. Chủ nhật em cũng nấu ăn." }
+      ]
+    },
+    {
+      "id": "5-5", "title": "Bài khoá 3", "audio": "5-5",
+      "context": "Vương Nhất Tuyết và Dương Đồng Lạc đang trò chuyện sau giờ làm ở công ty.",
+      "lines": [
+        { "s": "yx", "zh": "同乐，下班吗？", "pinyin": "Tónglè, xiàbān ma?", "vi": "Đồng Lạc, em tan làm chưa?" },
+        { "s": "tl", "zh": "下班。", "pinyin": "Xiàbān.", "vi": "Em tan làm rồi." },
+        { "s": "yx", "zh": "这是你的新电脑吗？", "pinyin": "Zhè shì nǐ de xīn diànnǎo ma?", "vi": "Đây là máy tính mới của em à?" },
+        { "s": "tl", "zh": "是的，是我的新电脑。", "pinyin": "Shì de, shì wǒ de xīn diànnǎo.", "vi": "Đúng vậy, đây là máy tính mới của em." },
+        { "s": "yx", "zh": "真好看！", "pinyin": "Zhēn hǎokàn!", "vi": "Đẹp thật đấy!" },
+        { "s": "tl", "zh": "我也很喜欢它。", "pinyin": "Wǒ yě hěn xǐhuan tā.", "vi": "Em cũng rất thích nó." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "5-g1", "zh": "时间的表达（1）", "vi": "Cách diễn đạt thời gian (1)",
+      "explain": "Trật tự diễn đạt ngày tháng và thứ trong tuần trong tiếng Trung Quốc là: năm → tháng → ngày → thứ (年→月→日/号→星期). Tháng: 一月 … 十二月. Thứ: 星期一 (thứ Hai) … 星期六 (thứ Bảy), 星期日/星期天 (Chủ nhật).",
+      "pattern": "……年……月……日/号，星期……",
+      "examples": [
+        { "zh": "1992年5月16日/号，星期六", "pinyin": "yī jiǔ jiǔ èr nián wǔ yuè shíliù rì/hào, Xīngqīliù", "vi": "Thứ Bảy, ngày 16 tháng 5 năm 1992" },
+        { "zh": "今天9月8号。", "pinyin": "Jīntiān jiǔ yuè bā hào.", "vi": "Hôm nay là ngày 8 tháng 9." },
+        { "zh": "明天是2024年8月18号，星期天。", "pinyin": "Míngtiān shì èr líng èr sì nián bā yuè shíbā hào, Xīngqītiān.", "vi": "Ngày mai là Chủ nhật, ngày 18 tháng 8 năm 2024." }
+      ]
+    },
+    {
+      "id": "5-g2", "zh": "名词谓语句", "vi": "Câu vị ngữ danh từ",
+      "explain": "Trong câu vị ngữ danh từ, thành phần vị ngữ chỉ có danh từ hoặc thành phần có tính chất như một danh từ; thường là những từ ngữ chỉ thời gian, ngày tháng, tuổi tác… (không cần “是”).",
+      "pattern": "Chủ ngữ + Danh từ (thời gian, ngày tháng, tuổi)",
+      "examples": [
+        { "zh": "今天几号？", "pinyin": "Jīntiān jǐ hào?", "vi": "Hôm nay ngày mấy?" },
+        { "zh": "今天5月1号。", "pinyin": "Jīntiān wǔ yuè yī hào.", "vi": "Hôm nay ngày 1 tháng 5." },
+        { "zh": "我妹妹12岁。", "pinyin": "Wǒ mèimei shí'èr suì.", "vi": "Em gái tôi 12 tuổi." }
+      ]
+    },
+    {
+      "id": "5-g3", "zh": "能愿动词“会”", "vi": "Động từ năng nguyện “会”",
+      "explain": "“会” đặt trước động từ, biểu thị việc biết hoặc có khả năng thực hiện một hành động nào đó thông qua học tập. Phủ định: 不会.",
+      "pattern": "Chủ ngữ + (不)会 + Động từ",
+      "examples": [
+        { "zh": "你会做饭吗？", "pinyin": "Nǐ huì zuò fàn ma?", "vi": "Bạn có biết nấu ăn không?" },
+        { "zh": "我会做面条儿。", "pinyin": "Wǒ huì zuò miàntiáor.", "vi": "Tôi biết nấu mì." },
+        { "zh": "我不会做菜。", "pinyin": "Wǒ bú huì zuò cài.", "vi": "Tôi không biết nấu món ăn." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "今天___。", "vi": "Hôm nay là ngày 22 tháng 6.", "options": ["菜", "喜欢", "6月22号", "新", "真"], "answer": 2 },
+    { "type": "fill", "source": "book", "sentence": "杨同乐有一个___电脑。", "vi": "Dương Đồng Lạc có một chiếc máy tính mới.", "options": ["菜", "喜欢", "6月22号", "新", "真"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "王一雪：你会做这两个___吗？", "vi": "Em có biết nấu hai món này không?", "options": ["菜", "喜欢", "6月22号", "新", "真"], "answer": 0 },
+    { "type": "fill", "source": "book", "sentence": "王一雪：你的电脑___好看！", "vi": "Máy tính của em đẹp thật!", "options": ["菜", "喜欢", "6月22号", "新", "真"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "杨同乐：我也很___。", "vi": "Em cũng rất thích.", "options": ["菜", "喜欢", "6月22号", "新", "真"], "answer": 1 },
+    { "type": "choice", "prompt": "“Thứ Bảy, ngày 16 tháng 5” viết đúng trật tự là:", "options": ["5月16号，星期六", "星期六，16号5月", "16号5月，星期六", "星期六5月16号"], "answer": 0 },
+    { "type": "choice", "prompt": "“星期天” là ngày nào?", "options": ["Chủ nhật", "Thứ Hai", "Thứ Bảy", "Hôm nay"], "answer": 0 },
+    { "type": "order", "vi": "Hôm nay là ngày 8 tháng 9.", "tiles": ["今天", "9月", "8号", "。"], "answer": "今天9月8号。" },
+    { "type": "order", "vi": "Bạn có biết nấu ăn không?", "tiles": ["你", "会", "做饭", "吗", "？"], "answer": "你会做饭吗？" },
+    { "type": "order", "vi": "Em cũng rất thích nó.", "tiles": ["我", "也", "很", "喜欢", "它", "。"], "answer": "我也很喜欢它。" },
+    { "type": "listen", "source": "book", "say": "你会做饭吗？我会做。", "prompt": "杨同乐（ ）做饭。", "options": ["会", "不", "不会"], "answer": 0 },
+    { "type": "listen", "source": "book", "say": "星期天我也做饭。", "prompt": "杨同乐（ ）也做饭。", "options": ["星期三", "星期六", "星期日"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "同乐，下班吗？下班。", "prompt": "杨同乐也（ ）。", "options": ["上班 (đi làm)", "下班", "休息"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "这是你的新电脑吗？是的，是我的新电脑。", "prompt": "杨同乐有一个新（ ）。", "options": ["名字", "工作", "电脑"], "answer": 2 }
+  ]
+}

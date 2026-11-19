@@ -1,0 +1,131 @@
+{
+  "id": 9,
+  "zh": "我明天上午在学校学习",
+  "pinyin": "Wǒ míngtiān shàngwǔ zài xuéxiào xuéxí",
+  "vi": "Sáng mai mình học ở trường",
+  "source": "Giáo trình New HSK 1, tr. 61–69",
+  "objectives": [
+    "Có thể nghe hiểu và sử dụng được “有/是” để diễn đạt sự tồn tại.",
+    "Nắm vững trật tự của từ ngữ chỉ thời gian và từ ngữ chỉ nơi chốn khi chúng cùng xuất hiện.",
+    "Nắm vững cách dùng của từ “第”.",
+    "Hiểu về các hoạt động giải trí của người Trung Quốc hiện đại."
+  ],
+  "speakers": {
+    "lw": { "zh": "李文", "pinyin": "Lǐ Wén", "vi": "Lý Văn" },
+    "jy": { "zh": "白家月", "pinyin": "Bái Jiāyuè", "vi": "Bạch Gia Nguyệt" },
+    "tz": { "zh": "陈天中", "pinyin": "Chén Tiānzhōng", "vi": "Trần Thiên Trung" },
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" },
+    "tl": { "zh": "杨同乐", "pinyin": "Yáng Tónglè", "vi": "Dương Đồng Lạc" }
+  },
+  "vocab": [
+    { "id": "9-01", "hanzi": "前边", "pinyin": "qiánbian", "pos": "n", "vi": "phía trước" },
+    { "id": "9-02", "hanzi": "边", "pinyin": "bian/biān", "pos": "n", "vi": "phía, bên" },
+    { "id": "9-03", "hanzi": "家", "pinyin": "jiā", "pos": "mw", "vi": "cái, chiếc (dùng cho cửa hàng, cơ quan, doanh nghiệp)" },
+    { "id": "9-04", "hanzi": "那个", "pinyin": "nàge", "pos": "pron", "vi": "đó, cái đó" },
+    { "id": "9-05", "hanzi": "外边", "pinyin": "wàibian", "pos": "n", "vi": "phía ngoài, bên ngoài" },
+    { "id": "9-06", "hanzi": "椅子", "pinyin": "yǐzi", "pos": "n", "vi": "ghế" },
+    { "id": "9-07", "hanzi": "上", "pinyin": "shang/shàng", "pos": "n", "vi": "trên, trước (dùng sau danh từ, chỉ vị trí)" },
+    { "id": "9-08", "hanzi": "本", "pinyin": "běn", "pos": "mw", "vi": "quyển, cuốn" },
+    { "id": "9-09", "hanzi": "书", "pinyin": "shū", "pos": "n", "vi": "sách" },
+    { "id": "9-10", "hanzi": "那", "pinyin": "nà", "pos": "pron", "vi": "kia, đó" },
+    { "id": "9-11", "hanzi": "第", "pinyin": "dì", "pos": "prefix", "vi": "thứ (dùng để biểu thị số thứ tự)" },
+    { "id": "9-12", "hanzi": "学习", "pinyin": "xuéxí", "pos": "v", "vi": "học, học tập" },
+    { "id": "9-13", "hanzi": "做", "pinyin": "zuò", "pos": "v", "vi": "làm" },
+    { "id": "9-14", "hanzi": "白天", "pinyin": "báitiān", "pos": "n", "vi": "ban ngày" },
+    { "id": "9-15", "hanzi": "读书", "pinyin": "dúshū", "pos": "v", "vi": "đọc sách, xem sách" },
+    { "id": "9-16", "hanzi": "和", "pinyin": "hé", "pos": "prep", "vi": "với, cùng" },
+    { "id": "9-17", "hanzi": "朋友", "pinyin": "péngyou", "pos": "n", "vi": "bạn, bạn bè" },
+    { "id": "9-18", "hanzi": "唱", "pinyin": "chàng", "pos": "v", "vi": "hát" },
+    { "id": "9-19", "hanzi": "歌", "pinyin": "gē", "pos": "n", "vi": "bài hát" },
+    { "id": "9-20", "hanzi": "好听", "pinyin": "hǎotīng", "pos": "adj", "vi": "hay, nghe hay" },
+    { "id": "9-21", "hanzi": "电视", "pinyin": "diànshì", "pos": "n", "vi": "ti vi, vô tuyến" },
+    { "id": "9-22", "hanzi": "狗", "pinyin": "gǒu", "pos": "n", "vi": "chó" },
+    { "id": "9-23", "hanzi": "玩", "pinyin": "wán", "pos": "v", "vi": "chơi" }
+  ],
+  "texts": [
+    {
+      "id": "9-1", "title": "Bài khoá 1", "audio": "9-1",
+      "context": "Lý Văn và Bạch Gia Nguyệt đang trò chuyện ở trong khuôn viên trường.",
+      "note": "“前边” có thể thêm âm uốn lưỡi, đọc thành “前边儿”. “边” là hậu tố, đọc thanh nhẹ; khi “边” là danh từ thì đọc “biān”. Trong văn nói, “那个” cũng có thể đọc thành “nèige”.",
+      "lines": [
+        { "s": "lw", "zh": "学校前边有一家电影院。", "pinyin": "Xuéxiào qiánbian yǒu yì jiā diànyǐngyuàn.", "vi": "Phía trước trường học có một rạp chiếu phim." },
+        { "s": "jy", "zh": "对。我们晚上去那个电影院看电影吧。", "pinyin": "Duì. Wǒmen wǎnshang qù nàge diànyǐngyuàn kàn diànyǐng ba.", "vi": "Đúng vậy. Tối chúng mình đến đó xem phim nhé." },
+        { "s": "lw", "zh": "好！我们七点在电影院外边见，好吗？", "pinyin": "Hǎo! Wǒmen qī diǎn zài diànyǐngyuàn wàibian jiàn, hǎo ma?", "vi": "Được, chúng mình gặp nhau lúc 7 giờ ở bên ngoài rạp chiếu phim, được không?" },
+        { "s": "jy", "zh": "好的，晚上七点见！", "pinyin": "Hǎo de, wǎnshang qī diǎn jiàn!", "vi": "Ừ, tối 7 giờ gặp nhau nhé." }
+      ]
+    },
+    {
+      "id": "9-3", "title": "Bài khoá 2", "audio": "9-3",
+      "context": "Bạch Gia Nguyệt đang trò chuyện với Trần Thiên Trung ở trong lớp sau khi tan học.",
+      "note": "Phương vị từ “上” đứng sau danh từ (椅子上, 书上) đọc thanh nhẹ. Khi biểu thị vị trí cao hoặc thứ tự, thời gian ở trước (上方, 上半年) thì đọc thanh 4.",
+      "lines": [
+        { "s": "jy", "zh": "椅子上有一本中文书，那是谁的书？", "pinyin": "Yǐzi shang yǒu yì běn Zhōngwén shū, nà shì shéi de shū?", "vi": "Có một quyển sách tiếng Trung Quốc ở trên ghế. Đó là sách của ai vậy?" },
+        { "s": "tz", "zh": "是我的书，谢谢。这是我的第二本中文书。", "pinyin": "Shì wǒ de shū, xièxie. Zhè shì wǒ de dì-èr běn Zhōngwén shū.", "vi": "Là sách của mình, cảm ơn bạn. Đây là quyển sách tiếng Trung Quốc thứ hai của mình." },
+        { "s": "jy", "zh": "不客气。你明天上午在哪儿？", "pinyin": "Bú kèqi. Nǐ míngtiān shàngwǔ zài nǎr?", "vi": "Đừng khách sáo nhé. Sáng mai bạn ở đâu?" },
+        { "s": "tz", "zh": "我明天上午在学校学习。", "pinyin": "Wǒ míngtiān shàngwǔ zài xuéxiào xuéxí.", "vi": "Sáng mai mình học ở trường." }
+      ]
+    },
+    {
+      "id": "9-5", "title": "Bài khoá 3", "audio": "9-5",
+      "context": "Vương Nhất Tuyết và Dương Đồng Lạc đang trò chuyện về cuộc sống cuối tuần của họ trong lúc nghỉ ngơi ở văn phòng.",
+      "note": "Trong văn nói thường thêm âm uốn lưỡi, đọc “玩” là “玩儿”.",
+      "lines": [
+        { "s": "yx", "zh": "明天星期六，你做什么？", "pinyin": "Míngtiān Xīngqīliù, nǐ zuò shénme?", "vi": "Mai là thứ Bảy rồi, em định làm gì?" },
+        { "s": "tl", "zh": "我白天在家里读书，晚上和朋友们去外边唱歌。", "pinyin": "Wǒ báitiān zài jiā li dúshū, wǎnshang hé péngyoumen qù wàibian chàng gē.", "vi": "Ban ngày em sẽ ở nhà đọc sách, buổi tối sẽ ra ngoài hát cùng bạn bè." },
+        { "s": "yx", "zh": "你唱歌很好听。", "pinyin": "Nǐ chàng gē hěn hǎotīng.", "vi": "Em hát rất hay." },
+        { "s": "tl", "zh": "谢谢！您星期六做什么？", "pinyin": "Xièxie! Nín Xīngqīliù zuò shénme?", "vi": "Cảm ơn chị! Thứ Bảy chị làm gì?" },
+        { "s": "yx", "zh": "我在家里做饭、看电视，和孩子们、小狗玩。", "pinyin": "Wǒ zài jiā li zuò fàn, kàn diànshì, hé háizimen, xiǎo gǒu wán.", "vi": "Chị ở nhà nấu ăn, xem ti vi, chơi với các con và con chó nhỏ của chị." },
+        { "s": "tl", "zh": "我也有一只小狗。", "pinyin": "Wǒ yě yǒu yì zhī xiǎo gǒu.", "vi": "Em cũng có một con chó nhỏ đấy." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "9-g1", "zh": "存现句（1）", "vi": "Câu tồn hiện (1)",
+      "explain": "Câu tồn hiện là câu biểu thị sự tồn tại của người hoặc sự vật ở một nơi hoặc vị trí nào đó, thường được nhận biết khi có từ “有” hoặc “是”. Khi phủ định, không thêm số lượng từ vào trước tân ngữ.",
+      "pattern": "Nơi chốn + 有/是 + (Số + Lượng từ) + Danh từ",
+      "examples": [
+        { "zh": "学校前边有一家电影院。", "pinyin": "Xuéxiào qiánbian yǒu yì jiā diànyǐngyuàn.", "vi": "Phía trước trường có một rạp chiếu phim." },
+        { "zh": "电影院前边是一家超市。", "pinyin": "Diànyǐngyuàn qiánbian shì yì jiā chāoshì.", "vi": "Phía trước rạp chiếu phim là một siêu thị." },
+        { "zh": "电影院前边不是超市。", "pinyin": "Diànyǐngyuàn qiánbian bú shì chāoshì.", "vi": "Phía trước rạp chiếu phim không phải là siêu thị." },
+        { "zh": "桌子上没有小猫。", "pinyin": "Zhuōzi shang méiyǒu xiǎo māo.", "vi": "Trên bàn không có mèo nhỏ." }
+      ]
+    },
+    {
+      "id": "9-g2", "zh": "时间词语和处所词语同时作状语的顺序", "vi": "Trật tự của từ ngữ chỉ thời gian và từ ngữ chỉ nơi chốn khi cùng làm trạng ngữ",
+      "explain": "Khi từ ngữ chỉ thời gian và từ ngữ chỉ nơi chốn cùng làm trạng ngữ thì từ ngữ chỉ thời gian đứng trước từ ngữ chỉ nơi chốn.",
+      "pattern": "Chủ ngữ + Thời gian + 在 + Nơi chốn + Động từ",
+      "examples": [
+        { "zh": "我们七点在电影院外边见。", "pinyin": "Wǒmen qī diǎn zài diànyǐngyuàn wàibian jiàn.", "vi": "Chúng ta gặp nhau lúc 7 giờ ở bên ngoài rạp chiếu phim." },
+        { "zh": "安妮下午在家里学中文。", "pinyin": "Ānnī xiàwǔ zài jiā li xué Zhōngwén.", "vi": "Buổi chiều Annie học tiếng Trung ở nhà." },
+        { "zh": "陈天中明天中午在学校吃午饭。", "pinyin": "Chén Tiānzhōng míngtiān zhōngwǔ zài xuéxiào chī wǔfàn.", "vi": "Trưa mai Trần Thiên Trung ăn trưa ở trường." }
+      ]
+    },
+    {
+      "id": "9-g3", "zh": "表示序数的“第”", "vi": "“第” dùng để biểu thị số thứ tự",
+      "explain": "“第” đặt trước số từ (số nguyên) để biểu thị số thứ tự. Cấu trúc cơ bản: (1) 第 + số từ; (2) 第 + số từ + lượng từ + (danh từ).",
+      "pattern": "第 + Số từ (+ Lượng từ + Danh từ)",
+      "examples": [
+        { "zh": "第一，第二，第三", "pinyin": "dì-yī, dì-èr, dì-sān", "vi": "thứ nhất, thứ hai, thứ ba" },
+        { "zh": "第一个学生", "pinyin": "dì-yī gè xuéshēng", "vi": "học sinh thứ nhất" },
+        { "zh": "这是我的第二本中文书。", "pinyin": "Zhè shì wǒ de dì-èr běn Zhōngwén shū.", "vi": "Đây là quyển sách tiếng Trung thứ hai của tôi." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "___上有一只小猫。", "vi": "Trên ghế có một con mèo nhỏ.", "options": ["是", "好听", "在学校", "今天上午", "椅子"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "房间外___一只小狗。", "vi": "Bên ngoài phòng là một con chó nhỏ.", "options": ["是", "好听", "在学校", "今天上午", "椅子"], "answer": 0 },
+    { "type": "fill", "source": "book", "sentence": "她___在家里学习。", "vi": "Sáng nay cô ấy học ở nhà.", "options": ["是", "好听", "在学校", "今天上午", "椅子"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "王一雪：你唱歌很___。", "vi": "Em hát rất hay.", "options": ["是", "好听", "在学校", "今天上午", "椅子"], "answer": 1 },
+    { "type": "fill", "source": "book", "sentence": "安妮：我下午还___上课。", "vi": "Chiều nay mình còn lên lớp ở trường.", "options": ["是", "好听", "在学校", "今天上午", "椅子"], "answer": 2 },
+    { "type": "choice", "prompt": "Câu nào đúng trật tự thời gian – nơi chốn?", "options": ["我明天上午在学校学习。", "我在学校明天上午学习。", "我学习明天上午在学校。", "明天上午我学习在学校。"], "answer": 0 },
+    { "type": "choice", "prompt": "“quyển sách thứ hai” nói thế nào?", "options": ["第二本书", "二第本书", "第两本书", "两本书"], "answer": 0 },
+    { "type": "order", "vi": "Phía trước trường học có một rạp chiếu phim.", "tiles": ["学校", "前边", "有", "一家", "电影院", "。"], "answer": "学校前边有一家电影院。" },
+    { "type": "order", "vi": "Sáng mai mình học ở trường.", "tiles": ["我", "明天上午", "在", "学校", "学习", "。"], "answer": "我明天上午在学校学习。" },
+    { "type": "order", "vi": "Đó là sách của ai?", "tiles": ["那", "是", "谁的", "书", "？"], "answer": "那是谁的书？" },
+    { "type": "listen", "source": "book", "say": "椅子上有一本中文书，那是谁的书？", "prompt": "椅子上有（ ）。", "options": ["一本书", "一只猫", "一个手机"], "answer": 0 },
+    { "type": "listen", "source": "book", "say": "是我的书，谢谢。这是我的第二本中文书。", "prompt": "这是陈天中的（ ）中文书。", "options": ["第一本", "第二本", "第三本"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "你唱歌很好听。", "prompt": "杨同乐唱歌（ ）。", "options": ["不太好", "不好听", "很好听"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "我在家里做饭、看电视，和孩子们、小狗玩。", "prompt": "王一雪家有一只（ ）。", "options": ["小猫", "小狗", "大狗"], "answer": 1 }
+  ]
+}
