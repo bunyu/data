@@ -1,0 +1,129 @@
+{
+  "id": 6,
+  "zh": "你的手机号是多少？",
+  "pinyin": "Nǐ de shǒujīhào shì duōshao?",
+  "vi": "Số điện thoại di động của bạn là bao nhiêu?",
+  "source": "Giáo trình New HSK 1, tr. 35–43",
+  "objectives": [
+    "Nghe hiểu số điện thoại di động và sử dụng chúng để gọi điện.",
+    "Nghe hiểu và sử dụng được hai hoặc nhiều cụm động từ để diễn đạt mục đích hoặc cách thức của hành động.",
+    "Nắm vững cách dùng của động từ năng nguyện “想”.",
+    "Nắm vững cách dùng của đại từ nghi vấn “怎么” để hỏi về phương thức thực hiện hành động."
+  ],
+  "speakers": {
+    "lw": { "zh": "李文", "pinyin": "Lǐ Wén", "vi": "Lý Văn" },
+    "jy": { "zh": "白家月", "pinyin": "Bái Jiāyuè", "vi": "Bạch Gia Nguyệt" },
+    "tz": { "zh": "陈天中", "pinyin": "Chén Tiānzhōng", "vi": "Trần Thiên Trung" },
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" },
+    "lm": { "zh": "刘明", "pinyin": "Liú Míng", "vi": "Lưu Minh" },
+    "xx": { "zh": "刘小雪", "pinyin": "Liú Xiǎoxuě", "vi": "Lưu Tiểu Tuyết" },
+    "xm": { "zh": "刘小明", "pinyin": "Liú Xiǎomíng", "vi": "Lưu Tiểu Minh" }
+  },
+  "vocab": [
+    { "id": "6-01", "hanzi": "手机", "pinyin": "shǒujī", "pos": "n", "vi": "điện thoại di động" },
+    { "id": "6-02", "hanzi": "电话", "pinyin": "diànhuà", "pos": "n", "vi": "điện thoại (máy cố định)" },
+    { "id": "6-03", "hanzi": "号", "pinyin": "hào", "pos": "n", "vi": "số" },
+    { "id": "6-04", "hanzi": "明天", "pinyin": "míngtiān", "pos": "n", "vi": "ngày mai" },
+    { "id": "6-05", "hanzi": "去", "pinyin": "qù", "pos": "v", "vi": "đi" },
+    { "id": "6-06", "hanzi": "哪儿", "pinyin": "nǎr", "pos": "pron", "vi": "đâu, chỗ nào, nơi nào" },
+    { "id": "6-07", "hanzi": "想", "pinyin": "xiǎng", "pos": "modal", "vi": "muốn" },
+    { "id": "6-08", "hanzi": "超市", "pinyin": "chāoshì", "pos": "n", "vi": "siêu thị" },
+    { "id": "6-09", "hanzi": "买", "pinyin": "mǎi", "pos": "v", "vi": "mua" },
+    { "id": "6-10", "hanzi": "东西", "pinyin": "dōngxi", "pos": "n", "vi": "đồ, đồ đạc" },
+    { "id": "6-11", "hanzi": "些", "pinyin": "xiē", "pos": "mw", "vi": "một ít, một vài" },
+    { "id": "6-12", "hanzi": "牛奶", "pinyin": "niúnǎi", "pos": "n", "vi": "sữa (bò)" },
+    { "id": "6-13", "hanzi": "吃", "pinyin": "chī", "pos": "v", "vi": "ăn" },
+    { "id": "6-14", "hanzi": "晚饭", "pinyin": "wǎnfàn", "pos": "n", "vi": "bữa tối" },
+    { "id": "6-15", "hanzi": "那边", "pinyin": "nàbiān", "pos": "pron", "vi": "bên kia, chỗ đó" },
+    { "id": "6-16", "hanzi": "包子", "pinyin": "bāozi", "pos": "n", "vi": "bánh bao (có nhân)" },
+    { "id": "6-17", "hanzi": "非常", "pinyin": "fēicháng", "pos": "adv", "vi": "rất, vô cùng, cực kỳ" },
+    { "id": "6-18", "hanzi": "好吃", "pinyin": "hǎochī", "pos": "adj", "vi": "ngon" },
+    { "id": "6-19", "hanzi": "米饭", "pinyin": "mǐfàn", "pos": "n", "vi": "cơm (cơm trắng)" },
+    { "id": "6-20", "hanzi": "怎么", "pinyin": "zěnme", "pos": "pron", "vi": "thế nào, bằng cách nào, như thế nào" },
+    { "id": "6-21", "hanzi": "坐", "pinyin": "zuò", "pos": "v", "vi": "ngồi, đi (xe, tàu…)" },
+    { "id": "6-22", "hanzi": "出租车", "pinyin": "chūzūchē", "pos": "n", "vi": "xe taxi" },
+    { "id": "6-p1", "hanzi": "西安饭店", "pinyin": "Xī'ān Fàndiàn", "pos": "", "vi": "nhà hàng Tây An", "proper": true }
+  ],
+  "texts": [
+    {
+      "id": "6-1", "title": "Bài khoá 1", "audio": "6-1",
+      "context": "Lý Văn đang hỏi xin số điện thoại di động của Bạch Gia Nguyệt trong khuôn viên trường.",
+      "note": "Hiện nay, đôi khi người ta cũng dùng từ “电话” để thay cho “手机”. Số điện thoại cần đọc từng chữ số một; riêng số “1” phải đọc là “yāo”.",
+      "lines": [
+        { "s": "lw", "zh": "家月，你的手机号是多少？", "pinyin": "Jiāyuè, nǐ de shǒujīhào shì duōshao?", "vi": "Gia Nguyệt, số điện thoại di động của bạn là bao nhiêu?" },
+        { "s": "jy", "zh": "我的手机号是+33 601493190。", "pinyin": "Wǒ de shǒujīhào shì sān sān liù líng yāo sì jiǔ sān yāo jiǔ líng.", "vi": "Số điện thoại di động của mình là +33 601493190." },
+        { "s": "lw", "zh": "我的手机号是+86 13552721160。", "pinyin": "Wǒ de shǒujīhào shì bā liù yāo sān wǔ wǔ èr qī èr yāo yāo liù líng.", "vi": "Số của mình là +86 13552721160." },
+        { "s": "jy", "zh": "好的。", "pinyin": "Hǎo de.", "vi": "Ừ." }
+      ]
+    },
+    {
+      "id": "6-3", "title": "Bài khoá 2", "audio": "6-3",
+      "context": "Bạch Gia Nguyệt và Trần Thiên Trung đang trò chuyện trong lớp sau khi tan học.",
+      "lines": [
+        { "s": "tz", "zh": "家月，明天你去哪儿？", "pinyin": "Jiāyuè, míngtiān nǐ qù nǎr?", "vi": "Gia Nguyệt, ngày mai bạn đi đâu?" },
+        { "s": "jy", "zh": "我想去超市买东西。", "pinyin": "Wǒ xiǎng qù chāoshì mǎi dōngxi.", "vi": "Mình muốn đi siêu thị mua đồ." },
+        { "s": "tz", "zh": "你去超市买什么？", "pinyin": "Nǐ qù chāoshì mǎi shénme?", "vi": "Bạn đi siêu thị mua gì vậy?" },
+        { "s": "jy", "zh": "我想买些牛奶。", "pinyin": "Wǒ xiǎng mǎi xiē niúnǎi.", "vi": "Mình muốn mua ít sữa." }
+      ]
+    },
+    {
+      "id": "6-5", "title": "Bài khoá 3", "audio": "6-5",
+      "context": "Gia đình Vương Nhất Tuyết đang bàn về kế hoạch cho bữa tối cuối tuần ở trong nhà.",
+      "lines": [
+        { "s": "yx", "zh": "星期天我们去哪儿吃晚饭？", "pinyin": "Xīngqītiān wǒmen qù nǎr chī wǎnfàn?", "vi": "Chủ nhật này nhà mình đi đâu ăn tối nhỉ?" },
+        { "s": "lm", "zh": "我还想去西安饭店。", "pinyin": "Wǒ hái xiǎng qù Xī'ān Fàndiàn.", "vi": "Bố vẫn muốn đến nhà hàng Tây An." },
+        { "s": "xx", "zh": "那边的包子非常好吃，我想吃包子。", "pinyin": "Nàbiān de bāozi fēicháng hǎochī, wǒ xiǎng chī bāozi.", "vi": "Bánh bao ở đó rất ngon, con muốn ăn bánh bao." },
+        { "s": "xm", "zh": "妈妈，我想吃米饭，不想吃包子。", "pinyin": "Māma, wǒ xiǎng chī mǐfàn, bù xiǎng chī bāozi.", "vi": "Mẹ ơi, con muốn ăn cơm, không muốn ăn bánh bao đâu." },
+        { "s": "yx", "zh": "好的。我们怎么去？", "pinyin": "Hǎo de. Wǒmen zěnme qù?", "vi": "Được thôi. Chúng ta đi thế nào nhỉ?" },
+        { "s": "lm", "zh": "坐出租车去。", "pinyin": "Zuò chūzūchē qù.", "vi": "Đi taxi nhé." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "6-g1", "zh": "能愿动词“想”", "vi": "Động từ năng nguyện “想”",
+      "explain": "Động từ năng nguyện “想” đặt trước động từ, dùng để biểu thị mong muốn hoặc dự định. Phủ định: 不想.",
+      "pattern": "Chủ ngữ + (不)想 + Động từ",
+      "examples": [
+        { "zh": "我想去超市。", "pinyin": "Wǒ xiǎng qù chāoshì.", "vi": "Tôi muốn đi siêu thị." },
+        { "zh": "我哥哥不想休息。", "pinyin": "Wǒ gēge bù xiǎng xiūxi.", "vi": "Anh trai tôi không muốn nghỉ." }
+      ]
+    },
+    {
+      "id": "6-g2", "zh": "连动句（1）", "vi": "Câu liên động (1)",
+      "explain": "Câu liên động là câu mà vị ngữ do hai hoặc nhiều hơn hai cụm động từ tạo nên. Câu liên động thường có hai ý nghĩa: (1) chỉ mục đích của hành động; (2) chỉ phương thức của hành động.",
+      "pattern": "去 + Nơi chốn + Động từ (mục đích) · 坐 + Phương tiện + 去 + Nơi chốn (phương thức)",
+      "examples": [
+        { "zh": "我想去超市买东西。", "pinyin": "Wǒ xiǎng qù chāoshì mǎi dōngxi.", "vi": "Tôi muốn đi siêu thị mua đồ. (mục đích)" },
+        { "zh": "我们去西安饭店吃晚饭。", "pinyin": "Wǒmen qù Xī'ān Fàndiàn chī wǎnfàn.", "vi": "Chúng tôi đến nhà hàng Tây An ăn tối. (mục đích)" },
+        { "zh": "我们坐出租车去西安饭店。", "pinyin": "Wǒmen zuò chūzūchē qù Xī'ān Fàndiàn.", "vi": "Chúng tôi đi taxi đến nhà hàng Tây An. (phương thức)" },
+        { "zh": "她坐出租车去超市。", "pinyin": "Tā zuò chūzūchē qù chāoshì.", "vi": "Cô ấy đi taxi đến siêu thị. (phương thức)" }
+      ]
+    },
+    {
+      "id": "6-g3", "zh": "疑问代词“怎么”", "vi": "Đại từ nghi vấn “怎么”",
+      "explain": "Đại từ nghi vấn “怎么” đặt trước động từ, để hỏi về phương thức thực hiện hành động.",
+      "pattern": "Chủ ngữ + 怎么 + Động từ？",
+      "examples": [
+        { "zh": "我们怎么去？", "pinyin": "Wǒmen zěnme qù?", "vi": "Chúng ta đi bằng cách nào?" },
+        { "zh": "她怎么去超市？", "pinyin": "Tā zěnme qù chāoshì?", "vi": "Cô ấy đến siêu thị bằng cách nào?" }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "我想___超市买牛奶。", "vi": "Tôi muốn đi siêu thị mua sữa.", "options": ["多少", "买", "米饭", "坐", "去"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "我想去超市___牛奶。", "vi": "Tôi muốn đi siêu thị mua sữa.", "options": ["多少", "买", "米饭", "坐", "去"], "answer": 1 },
+    { "type": "fill", "source": "book", "sentence": "我们___出租车去西安饭店吃晚饭。", "vi": "Chúng tôi đi taxi đến nhà hàng Tây An ăn tối.", "options": ["多少", "买", "米饭", "坐", "去"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "妈妈：你想吃什么？孩子：我想吃___。", "vi": "Con muốn ăn cơm.", "options": ["多少", "买", "米饭", "坐", "去"], "answer": 2 },
+    { "type": "fill", "source": "book", "sentence": "老师：你的手机号是___？", "vi": "Số điện thoại của em là bao nhiêu?", "options": ["多少", "买", "米饭", "坐", "去"], "answer": 0 },
+    { "type": "choice", "prompt": "Khi đọc số điện thoại, số “1” đọc là:", "options": ["yāo", "yī", "yì", "yí"], "answer": 0 },
+    { "type": "choice", "prompt": "“我们怎么去？” hỏi về điều gì?", "options": ["Cách đi (phương tiện)", "Nơi muốn đến", "Thời gian đi", "Ai đi cùng"], "answer": 0 },
+    { "type": "order", "vi": "Ngày mai bạn đi đâu?", "tiles": ["明天", "你", "去", "哪儿", "？"], "answer": "明天你去哪儿？", "accept": ["你明天去哪儿？"] },
+    { "type": "order", "vi": "Mình muốn đi siêu thị mua đồ.", "tiles": ["我", "想", "去", "超市", "买", "东西", "。"], "answer": "我想去超市买东西。" },
+    { "type": "order", "vi": "Chúng tôi đi taxi đến nhà hàng Tây An.", "tiles": ["我们", "坐", "出租车", "去", "西安饭店", "。"], "answer": "我们坐出租车去西安饭店。" },
+    { "type": "listen", "source": "book", "say": "家月，明天你去哪儿？我想去超市买东西。", "prompt": "白家月（ ）想去超市。", "options": ["现在 (bây giờ)", "今天", "明天"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "你去超市买什么？我想买些牛奶。", "prompt": "白家月想买（ ）。", "options": ["菜 (rau)", "牛奶", "面条儿和牛奶"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "星期天我们去哪儿吃晚饭？我还想去西安饭店。", "prompt": "王一雪一家人想去西安饭店（ ）。", "options": ["吃早饭 (bữa sáng)", "吃午饭 (bữa trưa)", "吃晚饭"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "妈妈，我想吃米饭，不想吃包子。", "prompt": "刘小明不想吃（ ）。", "options": ["米饭", "包子", "面条儿"], "answer": 1 }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "id": 14,
+  "zh": "我看了一个电影",
+  "pinyin": "Wǒ kànle yí gè diànyǐng",
+  "vi": "Mình đã xem một bộ phim",
+  "source": "Giáo trình New HSK 1, tr. 103–111",
+  "objectives": [
+    "Có thể nghe hiểu và sử dụng được trợ từ động thái “了 (2)” để biểu thị hành động đã xảy ra hoặc đã hoàn thành.",
+    "Nắm vững cách dùng của phó từ chỉ phạm vi “都”.",
+    "Nắm vững cách dùng cơ bản của một số từ li hợp.",
+    "Hiểu và có thể miêu tả được tình hình học tập."
+  ],
+  "speakers": {
+    "jy": { "zh": "白家月", "pinyin": "Bái Jiāyuè", "vi": "Bạch Gia Nguyệt" },
+    "tz": { "zh": "陈天中", "pinyin": "Chén Tiānzhōng", "vi": "Trần Thiên Trung" },
+    "yf": { "zh": "王一飞", "pinyin": "Wáng Yīfēi", "vi": "Vương Nhất Phi (cô Vương)" },
+    "lm": { "zh": "刘明", "pinyin": "Liú Míng", "vi": "Lưu Minh" },
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" }
+  },
+  "vocab": [
+    { "id": "14-01", "hanzi": "上", "pinyin": "shàng", "pos": "v", "vi": "lên (xe, tàu...)" },
+    { "id": "14-02", "hanzi": "火车", "pinyin": "huǒchē", "pos": "n", "vi": "tàu, tàu hoả, xe lửa" },
+    { "id": "14-03", "hanzi": "中午", "pinyin": "zhōngwǔ", "pos": "n", "vi": "buổi trưa" },
+    { "id": "14-04", "hanzi": "开", "pinyin": "kāi", "pos": "v", "vi": "lái, chạy, khởi hành (phương tiện giao thông)" },
+    { "id": "14-05", "hanzi": "有些", "pinyin": "yǒuxiē", "pos": "pron", "vi": "có một số, có một vài" },
+    { "id": "14-06", "hanzi": "有的", "pinyin": "yǒude", "pos": "pron", "vi": "có người, có cái" },
+    { "id": "14-07", "hanzi": "了", "pinyin": "le", "pos": "part", "vi": "dùng sau động từ chỉ sự hoàn thành của động tác" },
+    { "id": "14-08", "hanzi": "写", "pinyin": "xiě", "pos": "v", "vi": "viết" },
+    { "id": "14-09", "hanzi": "都", "pinyin": "dōu", "pos": "adv", "vi": "đều" },
+    { "id": "14-10", "hanzi": "听见", "pinyin": "tīngjiàn", "pos": "v", "vi": "nghe thấy" },
+    { "id": "14-11", "hanzi": "不要", "pinyin": "búyào", "pos": "adv", "vi": "đừng, không được" },
+    { "id": "14-12", "hanzi": "说话", "pinyin": "shuōhuà", "pos": "v", "vi": "nói chuyện" },
+    { "id": "14-13", "hanzi": "听", "pinyin": "tīng", "pos": "v", "vi": "nghe" },
+    { "id": "14-14", "hanzi": "哪些", "pinyin": "nǎxiē", "pos": "pron", "vi": "những... nào" },
+    { "id": "14-15", "hanzi": "字", "pinyin": "zì", "pos": "n", "vi": "chữ" },
+    { "id": "14-p1", "hanzi": "汉语", "pinyin": "Hànyǔ", "pos": "n", "vi": "tiếng Trung Quốc, tiếng Hán", "proper": true },
+    { "id": "14-p2", "hanzi": "汉字", "pinyin": "Hànzì", "pos": "n", "vi": "chữ Hán", "proper": true },
+    { "id": "14-16", "hanzi": "明年", "pinyin": "míngnián", "pos": "n", "vi": "sang năm, năm tới" },
+    { "id": "14-17", "hanzi": "上", "pinyin": "shàng", "pos": "v", "vi": "lên, bắt đầu (làm gì đó vào thời gian cố định)" },
+    { "id": "14-18", "hanzi": "中学", "pinyin": "zhōngxué", "pos": "n", "vi": "trường trung học, trung học" },
+    { "id": "14-19", "hanzi": "小学", "pinyin": "xiǎoxué", "pos": "n", "vi": "trường tiểu học, tiểu học" },
+    { "id": "14-20", "hanzi": "中学生", "pinyin": "zhōngxuéshēng", "pos": "n", "vi": "học sinh trung học, học sinh cấp hai" },
+    { "id": "14-21", "hanzi": "小学生", "pinyin": "xiǎoxuéshēng", "pos": "n", "vi": "học sinh tiểu học, học sinh cấp một" },
+    { "id": "14-22", "hanzi": "上学", "pinyin": "shàngxué", "pos": "v", "vi": "đi học, bắt đầu đi học" },
+    { "id": "14-23", "hanzi": "他们", "pinyin": "tāmen", "pos": "pron", "vi": "họ, chúng, bọn họ, các anh ấy, các em ấy..." },
+    { "id": "14-24", "hanzi": "她们", "pinyin": "tāmen", "pos": "pron", "vi": "họ, chúng, bọn họ, các chị ấy, các em ấy... (nữ)" },
+    { "id": "14-25", "hanzi": "它们", "pinyin": "tāmen", "pos": "pron", "vi": "chúng (đại từ nhân xưng ngôi thứ ba số nhiều, chỉ vật)" },
+    { "id": "14-26", "hanzi": "晚", "pinyin": "wǎn", "pos": "adj", "vi": "muộn, trễ" }
+  ],
+  "texts": [
+    {
+      "id": "14-1", "title": "Bài khoá 1", "audio": "14-1",
+      "context": "Bạch Gia Nguyệt và Trần Thiên Trung đang thảo luận về chuyến du lịch ngoại khoá lần trước ở trong lớp sau giờ tan học.",
+      "note": "Trong bài này, “有些” cũng có thể nói là “有的”.",
+      "lines": [
+        { "s": "jy", "zh": "你们上火车后看见王老师了吗？", "pinyin": "Nǐmen shàng huǒchē hòu kànjiàn Wáng lǎoshī le ma?", "vi": "Sau khi lên tàu các bạn có nhìn thấy cô Vương không?" },
+        { "s": "tz", "zh": "没看见。中午车开后，有些人在看书，有些人睡觉了。", "pinyin": "Méi kànjiàn. Zhōngwǔ chē kāi hòu, yǒuxiē rén zài kàn shū, yǒuxiē rén shuìjiào le.", "vi": "Không nhìn thấy đâu. Buổi trưa, sau khi tàu chạy, có một số người đọc sách, một số người ngủ." },
+        { "s": "jy", "zh": "你呢？", "pinyin": "Nǐ ne?", "vi": "Còn bạn thì sao?" },
+        { "s": "tz", "zh": "我看了一个电影。", "pinyin": "Wǒ kànle yí gè diànyǐng.", "vi": "Mình đã xem một bộ phim." }
+      ]
+    },
+    {
+      "id": "14-3", "title": "Bài khoá 2", "audio": "14-3",
+      "context": "Cô Vương Nhất Phi hỏi thăm tình hình học tập của học sinh ở trong lớp học.",
+      "lines": [
+        { "s": "yf", "zh": "你们会说汉语了，也会写汉字了吗？", "pinyin": "Nǐmen huì shuō Hànyǔ le, yě huì xiě Hànzì le ma?", "vi": "Các em đã biết nói tiếng Trung Quốc rồi, cũng đã biết viết chữ Hán rồi phải không?" },
+        { "s": "jy", "zh": "我们都会写了。", "pinyin": "Wǒmen dōu huì xiě le.", "vi": "Chúng em đều biết viết rồi ạ." },
+        { "s": "tz", "zh": "老师，我听不见。", "pinyin": "Lǎoshī, wǒ tīng bu jiàn.", "vi": "Thưa cô, em không nghe thấy ạ." },
+        { "s": "yf", "zh": "请大家不要说话！请听老师的问题：你们都会写哪些汉字了？", "pinyin": "Qǐng dàjiā búyào shuōhuà! Qǐng tīng lǎoshī de wèntí: Nǐmen dōu huì xiě nǎxiē Hànzì le?", "vi": "Mọi người đừng nói chuyện! Hãy lắng nghe câu hỏi của cô: Các em đã biết viết những chữ Hán nào rồi?" },
+        { "s": "tz", "zh": "我会写这些字了，您看！", "pinyin": "Wǒ huì xiě zhèxiē zì le, nín kàn!", "vi": "Cô xem này, em đã biết viết những chữ này rồi!" }
+      ]
+    },
+    {
+      "id": "14-5", "title": "Bài khoá 3", "audio": "14-5",
+      "context": "Lưu Minh và Vương Nhất Tuyết đang trò chuyện về tình hình học tập của các con ở trong nhà.",
+      "note": "“他们”, “她们” và “它们” có cách đọc giống nhau (tāmen) nhưng nghĩa khác nhau: “她们” chỉ một nhóm nữ giới không bao gồm người nghe và người nói; “它们” dùng để chỉ nhiều hơn một sự vật.",
+      "lines": [
+        { "s": "lm", "zh": "明年女儿上中学。", "pinyin": "Míngnián nǚ'ér shàng zhōngxué.", "vi": "Sang năm con gái lên trung học." },
+        { "s": "yx", "zh": "对。儿子也上小学了。", "pinyin": "Duì. Érzi yě shàng xiǎoxué le.", "vi": "Đúng vậy. Con trai cũng lên tiểu học." },
+        { "s": "lm", "zh": "我们家有了一个中学生。", "pinyin": "Wǒmen jiā yǒule yí gè zhōngxuéshēng.", "vi": "Nhà mình có một học sinh trung học rồi." },
+        { "s": "yx", "zh": "还有了一个小学生。", "pinyin": "Hái yǒule yí gè xiǎoxuéshēng.", "vi": "Còn có thêm một học sinh tiểu học nữa." },
+        { "s": "lm", "zh": "上学后，他们都忙了。", "pinyin": "Shàngxué hòu, tāmen dōu máng le.", "vi": "Sau khi vào học, các con đều bận rộn cả." },
+        { "s": "yx", "zh": "是的。太晚了，睡觉吧。", "pinyin": "Shì de. Tài wǎn le, shuìjiào ba.", "vi": "Đúng vậy. Muộn quá rồi, đi ngủ thôi." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "14-g1", "zh": "动态助词“了（2）”", "vi": "Trợ từ động thái “了 (2)”",
+      "explain": "Trợ từ động thái “了 (2)” đứng sau động từ để biểu thị hành động đã xảy ra hoặc đã hoàn thành. Khi phủ định dùng “没”, bỏ “了”.",
+      "pattern": "Động từ + 了 + (Số lượng) + Tân ngữ / Phủ định: 没 + Động từ",
+      "examples": [
+        { "zh": "我看了一个电影。", "pinyin": "Wǒ kànle yí gè diànyǐng.", "vi": "Mình đã xem một bộ phim." },
+        { "zh": "我买了一个新电脑。", "pinyin": "Wǒ mǎile yí gè xīn diànnǎo.", "vi": "Mình đã mua một chiếc máy tính mới." },
+        { "zh": "我昨天没去商店买东西。", "pinyin": "Wǒ zuótiān méi qù shāngdiàn mǎi dōngxi.", "vi": "Hôm qua mình không đến cửa hàng mua đồ." }
+      ]
+    },
+    {
+      "id": "14-g2", "zh": "离合词（1）", "vi": "Từ li hợp (1)",
+      "explain": "Các từ như “上课”, “下课”, “上班”, “下班”, “说话”, “读书”, “睡觉”, “看病”, “生病”... là cấu trúc động từ đặc biệt, khi sử dụng có thể tách ra hoặc hợp lại. Khi hợp lại sẽ là từ, khi thêm các thành phần khác vào giữa thì trở thành cụm từ. Khi tách ra, chỉ có một số thành phần có thể chèn vào giữa.",
+      "pattern": "睡觉 → 睡了觉 / 睡了一觉",
+      "examples": [
+        { "zh": "睡了觉；睡了一觉", "pinyin": "shuìle jiào; shuìle yí jiào", "vi": "đã ngủ; đã ngủ một giấc" },
+        { "zh": "上了课；上中文课", "pinyin": "shàngle kè; shàng Zhōngwén kè", "vi": "đã học; học tiếng Trung" },
+        { "zh": "下了班", "pinyin": "xiàle bān", "vi": "đã tan làm" },
+        { "zh": "生了病；生了大病", "pinyin": "shēngle bìng; shēngle dà bìng", "vi": "đã bị ốm; bị ốm nặng" },
+        { "zh": "说了话；说了很多话", "pinyin": "shuōle huà; shuōle hěn duō huà", "vi": "đã nói; đã nói rất nhiều" }
+      ]
+    },
+    {
+      "id": "14-g3", "zh": "范围副词“都”", "vi": "Phó từ chỉ phạm vi “都”",
+      "explain": "Phó từ chỉ phạm vi “都” dùng để biểu thị toàn bộ, tất cả. Đối tượng được bao quát đứng trước “都”. Khi phủ định, từ phủ định đứng sau “都”.",
+      "pattern": "Chủ ngữ (số nhiều) + 都 + (不/没) + Động từ",
+      "examples": [
+        { "zh": "我们都会写了。", "pinyin": "Wǒmen dōu huì xiě le.", "vi": "Chúng mình đều biết viết rồi." },
+        { "zh": "我和我的朋友们都去。", "pinyin": "Wǒ hé wǒ de péngyoumen dōu qù.", "vi": "Mình và các bạn của mình đều đi." },
+        { "zh": "同学们都没听见。", "pinyin": "Tóngxuémen dōu méi tīngjiàn.", "vi": "Các bạn học đều không nghe thấy." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "我写___很多汉字。", "vi": "Mình đã viết rất nhiều chữ Hán.", "options": ["上学", "了", "都", "听见", "有的"], "answer": 1 },
+    { "type": "fill", "source": "book", "sentence": "他没___老师说什么。", "vi": "Cậu ấy không nghe thấy thầy giáo nói gì.", "options": ["上学", "了", "都", "听见", "有的"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "你们昨天在车上做什么了？——我看了一本书，___人在睡觉。", "vi": "Hôm qua các bạn làm gì trên xe? — Mình đọc một quyển sách, có người thì ngủ.", "options": ["上学", "了", "都", "听见", "有的"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "明年___后，他们都忙了。", "vi": "Sang năm sau khi đi học, các con đều bận rồi.", "options": ["上学", "了", "都", "听见", "有的"], "answer": 0 },
+    { "type": "fill", "source": "book", "sentence": "明年上学后，他们___忙了。", "vi": "Sang năm sau khi đi học, các con đều bận rồi.", "options": ["上学", "了", "都", "听见", "有的"], "answer": 2 },
+    { "type": "choice", "prompt": "“Hôm qua mình không đi xem phim.”", "options": ["我昨天没看了电影。", "我昨天不看了电影。", "我昨天没看电影。", "我昨天看电影没了。"], "answer": 2, "explain": "Phủ định của “了 (2)” dùng “没” và bỏ “了”." },
+    { "type": "choice", "prompt": "“Các bạn học đều không nghe thấy.”", "options": ["同学们没都听见。", "同学们都没听见。", "都同学们没听见。", "同学们没听见都。"], "answer": 1, "explain": "Từ phủ định đứng sau “都”." },
+    { "type": "order", "vi": "Mình đã xem một bộ phim.", "tiles": ["我", "看", "了", "一个", "电影", "。"], "answer": "我看了一个电影。" },
+    { "type": "order", "vi": "Chúng em đều biết viết rồi.", "tiles": ["我们", "都", "会", "写", "了", "。"], "answer": "我们都会写了。" },
+    { "type": "order", "vi": "Mọi người đừng nói chuyện!", "tiles": ["请", "大家", "不要", "说话", "！"], "answer": "请大家不要说话！" },
+    { "type": "listen", "source": "book", "say": "你们上火车后看见王老师了吗？没看见。", "prompt": "陈天中（ ）王老师。", "options": ["正在看", "没看见", "看见了"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "你呢？我看了一个电影。", "prompt": "陈天中在火车上（ ）。", "options": ["读书", "找王老师", "看了一个电影"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "你们会说汉语了，也会写汉字了吗？我们都会写了。", "prompt": "同学们（ ）汉语了。", "options": ["想说", "不会说", "都会说"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "老师，我听不见。", "prompt": "陈天中（ ）王老师在说什么。", "options": ["听见了", "没听见", "不想听"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "明年女儿上中学。", "prompt": "明年刘明和王一雪的女儿（ ）。", "options": ["上小学", "上中学", "上大学"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "上学后，他们都忙了。", "prompt": "（ ）孩子们都忙了。", "options": ["上学", "上学前", "上学后"], "answer": 2 }
+  ]
+}

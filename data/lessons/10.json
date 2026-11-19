@@ -1,0 +1,130 @@
+{
+  "id": 10,
+  "zh": "这儿的苹果真便宜！",
+  "pinyin": "Zhèr de píngguǒ zhēn piányi!",
+  "vi": "Táo ở đây rẻ thật!",
+  "source": "Giáo trình New HSK 1, tr. 70–77",
+  "objectives": [
+    "Có thể nghe hiểu, đọc hiểu và trao đổi đơn giản về giá cả hàng hoá.",
+    "Nắm vững cách sử dụng của câu vị ngữ tính từ.",
+    "Nắm vững cách dùng của đại từ nghi vấn “怎么样”.",
+    "Nhận biết được đồng Nhân dân tệ."
+  ],
+  "speakers": {
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" },
+    "sh": { "zh": "售货员", "pinyin": "shòuhuòyuán", "vi": "Nhân viên bán hàng" },
+    "lm": { "zh": "刘明", "pinyin": "Liú Míng", "vi": "Lưu Minh" }
+  },
+  "vocab": [
+    { "id": "10-01", "hanzi": "杯子", "pinyin": "bēizi", "pos": "n", "vi": "cốc, ly" },
+    { "id": "10-02", "hanzi": "售货员", "pinyin": "shòuhuòyuán", "pos": "n", "vi": "nhân viên bán hàng" },
+    { "id": "10-03", "hanzi": "这边", "pinyin": "zhèbiān", "pos": "pron", "vi": "bên này, phía này" },
+    { "id": "10-04", "hanzi": "钱", "pinyin": "qián", "pos": "n", "vi": "tiền" },
+    { "id": "10-05", "hanzi": "这些", "pinyin": "zhèxiē", "pos": "pron", "vi": "những cái này" },
+    { "id": "10-06", "hanzi": "块", "pinyin": "kuài", "pos": "mw", "vi": "đồng (đơn vị tiền tệ)" },
+    { "id": "10-07", "hanzi": "那些", "pinyin": "nàxiē", "pos": "pron", "vi": "những cái kia" },
+    { "id": "10-08", "hanzi": "这儿", "pinyin": "zhèr", "pos": "pron", "vi": "ở đây, chỗ này" },
+    { "id": "10-09", "hanzi": "水果", "pinyin": "shuǐguǒ", "pos": "n", "vi": "hoa quả, trái cây" },
+    { "id": "10-10", "hanzi": "少", "pinyin": "shǎo", "pos": "adj", "vi": "ít" },
+    { "id": "10-11", "hanzi": "斤", "pinyin": "jīn", "pos": "mw", "vi": "cân (đơn vị đo lường của Trung Quốc, 1 cân bằng 0,5 kg)" },
+    { "id": "10-12", "hanzi": "苹果", "pinyin": "píngguǒ", "pos": "n", "vi": "táo" },
+    { "id": "10-13", "hanzi": "便宜", "pinyin": "piányi", "pos": "adj", "vi": "rẻ" },
+    { "id": "10-14", "hanzi": "商店", "pinyin": "shāngdiàn", "pos": "n", "vi": "cửa hàng" },
+    { "id": "10-15", "hanzi": "衣服", "pinyin": "yīfu", "pos": "n", "vi": "quần áo" },
+    { "id": "10-16", "hanzi": "件", "pinyin": "jiàn", "pos": "mw", "vi": "chiếc, cái (dùng cho quần áo)" },
+    { "id": "10-17", "hanzi": "元", "pinyin": "yuán", "pos": "mw", "vi": "đồng (nhân dân tệ)" },
+    { "id": "10-18", "hanzi": "怎么样", "pinyin": "zěnmeyàng", "pos": "pron", "vi": "thế nào, như thế nào" },
+    { "id": "10-19", "hanzi": "贵", "pinyin": "guì", "pos": "adj", "vi": "đắt" },
+    { "id": "10-20", "hanzi": "穿", "pinyin": "chuān", "pos": "v", "vi": "mặc" },
+    { "id": "10-21", "hanzi": "女", "pinyin": "nǚ", "pos": "adj", "vi": "nữ, con gái" },
+    { "id": "10-22", "hanzi": "男", "pinyin": "nán", "pos": "adj", "vi": "nam, con trai" },
+    { "id": "10-23", "hanzi": "那儿", "pinyin": "nàr", "pos": "pron", "vi": "ở kia, chỗ đó" }
+  ],
+  "texts": [
+    {
+      "id": "10-1", "title": "Bài khoá 1", "audio": "10-1",
+      "context": "Vương Nhất Tuyết mua cốc ở một cửa hàng nhỏ.",
+      "lines": [
+        { "s": "yx", "zh": "请问，有杯子吗？", "pinyin": "Qǐngwèn, yǒu bēizi ma?", "vi": "Xin hỏi, ở đây có bán cốc không?" },
+        { "s": "sh", "zh": "有，杯子在这边。", "pinyin": "Yǒu, bēizi zài zhèbiān.", "vi": "Có ạ, cốc ở phía bên này." },
+        { "s": "yx", "zh": "多少钱一个？", "pinyin": "Duōshao qián yí gè?", "vi": "Bao nhiêu tiền một chiếc vậy?" },
+        { "s": "sh", "zh": "这些五块钱一个，那些十块钱一个。", "pinyin": "Zhèxiē wǔ kuài qián yí gè, nàxiē shí kuài qián yí gè.", "vi": "Những chiếc này 5 đồng một chiếc, còn những chiếc kia 10 đồng một chiếc." },
+        { "s": "yx", "zh": "我买这个吧。", "pinyin": "Wǒ mǎi zhège ba.", "vi": "Tôi lấy chiếc này." }
+      ]
+    },
+    {
+      "id": "10-3", "title": "Bài khoá 2", "audio": "10-3",
+      "context": "Vương Nhất Tuyết đang mua hoa quả ở chợ.",
+      "lines": [
+        { "s": "yx", "zh": "这儿的水果真不少！", "pinyin": "Zhèr de shuǐguǒ zhēn bù shǎo!", "vi": "Hoa quả ở đây nhiều nhỉ!" },
+        { "s": "sh", "zh": "您想买什么？", "pinyin": "Nín xiǎng mǎi shénme?", "vi": "Chị muốn mua gì?" },
+        { "s": "yx", "zh": "我想买两斤苹果。", "pinyin": "Wǒ xiǎng mǎi liǎng jīn píngguǒ.", "vi": "Tôi muốn mua hai cân táo." },
+        { "s": "sh", "zh": "苹果三块五一斤。这些七块二，七块钱吧。", "pinyin": "Píngguǒ sān kuài wǔ yì jīn. Zhèxiē qī kuài èr, qī kuài qián ba.", "vi": "Táo 3 đồng rưỡi một cân. Chỗ này 7,2 đồng, lấy chị 7 đồng nhé." },
+        { "s": "yx", "zh": "好的，这儿的苹果真便宜！", "pinyin": "Hǎo de, zhèr de píngguǒ zhēn piányi!", "vi": "Vâng, táo ở đây rẻ thật!" }
+      ]
+    },
+    {
+      "id": "10-5", "title": "Bài khoá 3", "audio": "10-5",
+      "context": "Lưu Minh và Vương Nhất Tuyết đang mua quần áo cho các con trong trung tâm thương mại.",
+      "lines": [
+        { "s": "yx", "zh": "这家商店衣服真多！这件一百元，怎么样？", "pinyin": "Zhè jiā shāngdiàn yīfu zhēn duō! Zhè jiàn yìbǎi yuán, zěnmeyàng?", "vi": "Cửa hàng này nhiều quần áo thật đấy! Chiếc này 100 đồng, anh thấy thế nào?" },
+        { "s": "lm", "zh": "好看，也不贵。", "pinyin": "Hǎokàn, yě bú guì.", "vi": "Đẹp đấy, mà cũng không đắt." },
+        { "s": "yx", "zh": "小雪能穿，买一件吧。", "pinyin": "Xiǎoxuě néng chuān, mǎi yí jiàn ba.", "vi": "Tiểu Tuyết mặc được đấy, mua một chiếc nhé." },
+        { "s": "lm", "zh": "好的。小明能穿吗？", "pinyin": "Hǎo de. Xiǎomíng néng chuān ma?", "vi": "Ừ. Tiểu Minh có mặc được không?" },
+        { "s": "yx", "zh": "不能。这些是女孩子穿的衣服，男孩子的衣服在那儿。", "pinyin": "Bù néng. Zhèxiē shì nǚ háizi chuān de yīfu, nán háizi de yīfu zài nàr.", "vi": "Không được đâu. Những cái này là quần áo dành cho bé gái. Quần áo dành cho bé trai ở đằng kia cơ." },
+        { "s": "lm", "zh": "好的。", "pinyin": "Hǎo de.", "vi": "Ừ nhỉ." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "10-g1", "zh": "钱数的表达", "vi": "Cách diễn đạt số tiền",
+      "explain": "Đơn vị tiền tệ của Trung Quốc được gọi là Nhân dân tệ (RMB). Các đơn vị của Nhân dân tệ xếp từ lớn đến nhỏ là “元”, “角” và “分”, trong văn nói lần lượt được gọi là “块”, “毛” và “分”.",
+      "pattern": "元/块 → 角/毛 → 分",
+      "examples": [
+        { "zh": "0.02元：两分", "pinyin": "liǎng fēn", "vi": "0,02 đồng" },
+        { "zh": "0.2元：两毛", "pinyin": "liǎng máo", "vi": "0,2 đồng" },
+        { "zh": "3.2元：三块二", "pinyin": "sān kuài èr", "vi": "3,2 đồng" },
+        { "zh": "6.02元：六块零两分", "pinyin": "liù kuài líng liǎng fēn", "vi": "6,02 đồng" },
+        { "zh": "202.2元：二百零二块两毛", "pinyin": "èrbǎi líng èr kuài liǎng máo", "vi": "202,2 đồng" }
+      ],
+      "note": "Chữ số cuối cùng có thể lược bỏ đơn vị: 三块二 = 三块两毛."
+    },
+    {
+      "id": "10-g2", "zh": "形容词谓语句", "vi": "Câu vị ngữ tính từ",
+      "explain": "Tính từ có thể trực tiếp làm vị ngữ, trước tính từ có thể thêm phó từ chỉ mức độ hoặc phó từ phủ định.",
+      "pattern": "Chủ ngữ + (很/真/不/太…) + Tính từ",
+      "examples": [
+        { "zh": "这儿的水果真不少！", "pinyin": "Zhèr de shuǐguǒ zhēn bù shǎo!", "vi": "Hoa quả ở đây nhiều thật!" },
+        { "zh": "我的房间不大。", "pinyin": "Wǒ de fángjiān bú dà.", "vi": "Phòng của mình không to." },
+        { "zh": "那个苹果好吃。", "pinyin": "Nàge píngguǒ hǎochī.", "vi": "Quả táo đó ngon." }
+      ]
+    },
+    {
+      "id": "10-g3", "zh": "疑问代词“怎么样”", "vi": "Đại từ nghi vấn “怎么样”",
+      "explain": "Đại từ nghi vấn “怎么样” được dùng để hỏi ý kiến hoặc hỏi thăm về tình hình.",
+      "pattern": "……怎么样？",
+      "examples": [
+        { "zh": "这个杯子怎么样？——我很喜欢，也不贵。", "pinyin": "Zhège bēizi zěnmeyàng? — Wǒ hěn xǐhuan, yě bú guì.", "vi": "Cái cốc này thế nào? — Mình rất thích, cũng không đắt." },
+        { "zh": "这本书怎么样？——很好看。", "pinyin": "Zhè běn shū zěnmeyàng? — Hěn hǎokàn.", "vi": "Quyển sách này thế nào? — Rất hay." },
+        { "zh": "这个菜怎么样？——这个菜不太好吃，我不喜欢。", "pinyin": "Zhège cài zěnmeyàng? — Zhège cài bú tài hǎochī, wǒ bù xǐhuan.", "vi": "Món này thế nào? — Món này không ngon lắm, mình không thích." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "请问，这本书___钱？", "vi": "Xin hỏi, quyển sách này bao nhiêu tiền?", "options": ["杯子", "怎么样", "多少", "这些", "块"], "answer": 2 },
+    { "type": "fill", "source": "book", "sentence": "这个___不便宜，六十五块钱一个。", "vi": "Cái cốc này không rẻ, 65 đồng một cái.", "options": ["杯子", "怎么样", "多少", "这些", "块"], "answer": 0 },
+    { "type": "fill", "source": "book", "sentence": "这个杯子不便宜，六十五___钱一个。", "vi": "Cái cốc này không rẻ, 65 đồng một cái.", "options": ["杯子", "怎么样", "多少", "这些", "块"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "___苹果很好吃，你买一些吧。", "vi": "Những quả táo này rất ngon, chị mua một ít đi.", "options": ["杯子", "怎么样", "多少", "这些", "块"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "这件衣服___？——很好看。", "vi": "Chiếc áo này thế nào? — Rất đẹp.", "options": ["杯子", "怎么样", "多少", "这些", "块"], "answer": 1 },
+    { "type": "choice", "prompt": "“6.02元” đọc là gì?", "options": ["六块两分", "六块零两分", "六块二", "六毛两分"], "answer": 1, "explain": "Khi có số 0 ở giữa thì đọc “零”: 六块零两分." },
+    { "type": "choice", "prompt": "Câu nào đúng?", "options": ["这儿的苹果是便宜。", "这儿的苹果很便宜。", "这儿的苹果有便宜。", "这儿的苹果便宜是。"], "answer": 1, "explain": "Tính từ trực tiếp làm vị ngữ, không cần “是”; thường thêm phó từ như “很”, “真”." },
+    { "type": "order", "vi": "Táo ở đây rẻ thật!", "tiles": ["这儿的", "苹果", "真", "便宜", "！"], "answer": "这儿的苹果真便宜！" },
+    { "type": "order", "vi": "Bao nhiêu tiền một chiếc?", "tiles": ["多少", "钱", "一个", "？"], "answer": "多少钱一个？", "accept": ["一个多少钱？"] },
+    { "type": "order", "vi": "Chiếc áo này 100 đồng, thế nào?", "tiles": ["这件", "衣服", "一百元", "，", "怎么样", "？"], "answer": "这件衣服一百元，怎么样？" },
+    { "type": "listen", "source": "book", "say": "这儿的水果真不少！", "prompt": "这儿的水果（ ）。", "options": ["很少", "真不少", "真不多"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "苹果三块五一斤。", "prompt": "苹果（ ）一斤。", "options": ["三块", "三块五", "七块二"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "这家商店衣服真多！这件一百元，怎么样？", "prompt": "这件衣服（ ）。", "options": ["二十元", "一百元", "一百一十元"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "好看，也不贵。", "prompt": "这件衣服（ ）。", "options": ["太贵", "很贵", "不贵"], "answer": 2 }
+  ]
+}

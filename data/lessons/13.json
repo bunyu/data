@@ -1,0 +1,126 @@
+{
+  "id": 13,
+  "zh": "请给我一杯茶",
+  "pinyin": "Qǐng gěi wǒ yì bēi chá",
+  "vi": "Cho tôi một cốc trà",
+  "source": "Giáo trình New HSK 1, tr. 95–102",
+  "objectives": [
+    "Có thể nghe hiểu và sử dụng được câu có hai tân ngữ (1) để biểu thị việc hỏi người khác hoặc đưa cho người khác vật gì đó.",
+    "Nắm vững cách sử dụng của động từ năng nguyện “可以”.",
+    "Nắm vững cách sử dụng của cấu trúc “động từ + 一下”.",
+    "Hiểu về các mẫu câu thường dùng khi gọi đồ ăn."
+  ],
+  "speakers": {
+    "jy": { "zh": "白家月", "pinyin": "Bái Jiāyuè", "vi": "Bạch Gia Nguyệt" },
+    "yf": { "zh": "王一飞", "pinyin": "Wáng Yīfēi", "vi": "Vương Nhất Phi (cô Vương)" },
+    "fw": { "zh": "服务员", "pinyin": "fúwùyuán", "vi": "Nhân viên phục vụ" },
+    "yx": { "zh": "王一雪", "pinyin": "Wáng Yīxuě", "vi": "Vương Nhất Tuyết" },
+    "lm": { "zh": "刘明", "pinyin": "Liú Míng", "vi": "Lưu Minh" }
+  },
+  "vocab": [
+    { "id": "13-01", "hanzi": "可以", "pinyin": "kěyǐ", "pos": "modal", "vi": "có thể, được (cho phép làm gì)" },
+    { "id": "13-02", "hanzi": "再", "pinyin": "zài", "pos": "adv", "vi": "lại, thêm lần nữa" },
+    { "id": "13-03", "hanzi": "问题", "pinyin": "wèntí", "pos": "n", "vi": "câu hỏi, vấn đề" },
+    { "id": "13-04", "hanzi": "卖", "pinyin": "mài", "pos": "v", "vi": "bán" },
+    { "id": "13-05", "hanzi": "打电话", "pinyin": "dǎ diànhuà", "pos": "v", "vi": "gọi điện thoại" },
+    { "id": "13-06", "hanzi": "一下", "pinyin": "yíxià", "pos": "num", "vi": "một chút, thử (dùng sau động từ, biểu thị hành động xảy ra nhanh hoặc thử làm)" },
+    { "id": "13-07", "hanzi": "服务员", "pinyin": "fúwùyuán", "pos": "n", "vi": "nhân viên phục vụ, người phục vụ" },
+    { "id": "13-08", "hanzi": "女士", "pinyin": "nǚshì", "pos": "n", "vi": "bà, cô, quý bà, quý cô" },
+    { "id": "13-09", "hanzi": "请", "pinyin": "qǐng", "pos": "v", "vi": "mời, xin, hãy" },
+    { "id": "13-10", "hanzi": "坐", "pinyin": "zuò", "pos": "v", "vi": "ngồi" },
+    { "id": "13-11", "hanzi": "给", "pinyin": "gěi", "pos": "v", "vi": "đưa cho, cho" },
+    { "id": "13-12", "hanzi": "杯", "pinyin": "bēi", "pos": "n", "vi": "ly, cốc, tách" },
+    { "id": "13-13", "hanzi": "要", "pinyin": "yào", "pos": "v", "vi": "cần, muốn" },
+    { "id": "13-14", "hanzi": "早饭", "pinyin": "zǎofàn", "pos": "n", "vi": "bữa sáng" },
+    { "id": "13-15", "hanzi": "这个", "pinyin": "zhège", "pos": "pron", "vi": "cái này" },
+    { "id": "13-16", "hanzi": "面包", "pinyin": "miànbāo", "pos": "n", "vi": "bánh mì" },
+    { "id": "13-17", "hanzi": "鸡蛋", "pinyin": "jīdàn", "pos": "n", "vi": "trứng gà" },
+    { "id": "13-18", "hanzi": "先生", "pinyin": "xiānsheng", "pos": "n", "vi": "anh, ông, ngài, quý ông" },
+    { "id": "13-19", "hanzi": "一半", "pinyin": "yíbàn", "pos": "num", "vi": "một nửa" },
+    { "id": "13-20", "hanzi": "茶", "pinyin": "chá", "pos": "n", "vi": "trà, chè" }
+  ],
+  "texts": [
+    {
+      "id": "13-1", "title": "Bài khoá 1", "audio": "13-1",
+      "context": "Bạch Gia Nguyệt hỏi bài cô Vương ở trong lớp sau khi tan học.",
+      "lines": [
+        { "s": "jy", "zh": "王老师，我可以再问您一个问题吗？", "pinyin": "Wáng lǎoshī, wǒ kěyǐ zài wèn nín yí gè wèntí ma?", "vi": "Thưa cô Vương, em có thể hỏi thêm cô một câu nữa không ạ?" },
+        { "s": "yf", "zh": "可以。你有什么问题？", "pinyin": "Kěyǐ. Nǐ yǒu shénme wèntí?", "vi": "Được chứ. Em có vấn đề gì nào?" },
+        { "s": "jy", "zh": "那个小店卖不卖手机？", "pinyin": "Nàge xiǎo diàn mài bu mài shǒujī?", "vi": "Cửa hàng nhỏ kia có bán điện thoại di động không ạ?" },
+        { "s": "yf", "zh": "我不知道。你可以打电话问一下。", "pinyin": "Wǒ bù zhīdào. Nǐ kěyǐ dǎ diànhuà wèn yíxià.", "vi": "Cô không biết. Em có thể gọi điện thoại hỏi xem." }
+      ]
+    },
+    {
+      "id": "13-3", "title": "Bài khoá 2", "audio": "13-3",
+      "context": "Vương Nhất Tuyết muốn ăn sáng ở trong quán cà phê.",
+      "lines": [
+        { "s": "fw", "zh": "女士，请坐！您喝什么？", "pinyin": "Nǚshì, qǐng zuò! Nín hē shénme?", "vi": "Mời cô ngồi! Cô uống gì ạ?" },
+        { "s": "yx", "zh": "我看一下。请给我一杯牛奶。", "pinyin": "Wǒ kàn yíxià. Qǐng gěi wǒ yì bēi niúnǎi.", "vi": "Để tôi xem một chút. Cho tôi một cốc sữa." },
+        { "s": "fw", "zh": "好的。您还要什么？", "pinyin": "Hǎo de. Nín hái yào shénme?", "vi": "Vâng. Cô còn dùng thêm gì nữa không?" },
+        { "s": "yx", "zh": "我还没吃早饭，再要这个面包和鸡蛋吧。", "pinyin": "Wǒ hái méi chī zǎofàn, zài yào zhège miànbāo hé jīdàn ba.", "vi": "Tôi vẫn chưa ăn sáng, cho tôi cái bánh mì này và trứng nhé." }
+      ]
+    },
+    {
+      "id": "13-5", "title": "Bài khoá 3", "audio": "13-5",
+      "context": "Lưu Minh đang gọi món ăn ở nhà hàng.",
+      "lines": [
+        { "s": "fw", "zh": "先生，请坐！您要什么？", "pinyin": "Xiānsheng, qǐng zuò! Nín yào shénme?", "vi": "Mời anh ngồi! Anh cần gì ạ?" },
+        { "s": "lm", "zh": "我要一斤饺子。", "pinyin": "Wǒ yào yì jīn jiǎozi.", "vi": "Cho tôi một cân sủi cảo." },
+        { "s": "fw", "zh": "好的。一斤饺子40个。", "pinyin": "Hǎo de. Yì jīn jiǎozi sìshí gè.", "vi": "Vâng ạ. Một cân sủi cảo có 40 cái." },
+        { "s": "lm", "zh": "40个太多了，我要一半吧。", "pinyin": "Sìshí gè tài duō le, wǒ yào yíbàn ba.", "vi": "40 cái thì nhiều quá, tôi lấy nửa cân thôi nhé." },
+        { "s": "fw", "zh": "半斤20个。您想喝什么？", "pinyin": "Bàn jīn èrshí gè. Nín xiǎng hē shénme?", "vi": "Nửa cân là 20 cái. Anh muốn uống gì không ạ?" },
+        { "s": "lm", "zh": "请给我一杯茶吧。", "pinyin": "Qǐng gěi wǒ yì bēi chá ba.", "vi": "Cho tôi một cốc trà nhé." }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "13-g1", "zh": "能愿动词“可以”", "vi": "Động từ năng nguyện “可以”",
+      "explain": "Động từ năng nguyện “可以” được đặt trước động từ để biểu thị khả năng, năng lực hoặc sự cho phép.",
+      "pattern": "Chủ ngữ + 可以 + Động từ",
+      "examples": [
+        { "zh": "我可以再问您一个问题吗？", "pinyin": "Wǒ kěyǐ zài wèn nín yí gè wèntí ma?", "vi": "Em có thể hỏi cô thêm một câu nữa không ạ?" },
+        { "zh": "你们可以看这本书。", "pinyin": "Nǐmen kěyǐ kàn zhè běn shū.", "vi": "Các bạn có thể đọc quyển sách này." },
+        { "zh": "我可以坐吗？——可以，请坐！", "pinyin": "Wǒ kěyǐ zuò ma? — Kěyǐ, qǐng zuò!", "vi": "Tôi ngồi được không? — Được, mời ngồi!" }
+      ]
+    },
+    {
+      "id": "13-g2", "zh": "“动词+一下”结构", "vi": "Cấu trúc “động từ + 一下”",
+      "explain": "Cấu trúc “động từ + 一下” trong bài này dùng để biểu thị việc thực hiện hành động một lần hoặc thử làm việc gì đó, hành động diễn ra trong thời gian ngắn.",
+      "pattern": "Động từ + 一下",
+      "examples": [
+        { "zh": "你可以打电话问一下。", "pinyin": "Nǐ kěyǐ dǎ diànhuà wèn yíxià.", "vi": "Bạn có thể gọi điện hỏi thử." },
+        { "zh": "请休息一下。", "pinyin": "Qǐng xiūxi yíxià.", "vi": "Mời nghỉ một chút." },
+        { "zh": "你看一下吧。", "pinyin": "Nǐ kàn yíxià ba.", "vi": "Bạn xem thử đi." }
+      ]
+    },
+    {
+      "id": "13-g3", "zh": "双宾语句（1）", "vi": "Câu có hai tân ngữ (1)",
+      "explain": "Câu có hai tân ngữ là câu mà một động từ mang hai tân ngữ. Trong quyển sách này, chúng ta học câu có hai tân ngữ được tạo bởi động từ “给” và “问”.",
+      "pattern": "Chủ ngữ + 给/问 + Tân ngữ chỉ người + Tân ngữ chỉ vật",
+      "examples": [
+        { "zh": "请给我一杯牛奶。", "pinyin": "Qǐng gěi wǒ yì bēi niúnǎi.", "vi": "Cho tôi một cốc sữa." },
+        { "zh": "白家月给安妮一个苹果。", "pinyin": "Bái Jiāyuè gěi Ānní yí gè píngguǒ.", "vi": "Bạch Gia Nguyệt đưa cho Annie một quả táo." },
+        { "zh": "我问老师两个问题。", "pinyin": "Wǒ wèn lǎoshī liǎng gè wèntí.", "vi": "Mình hỏi thầy giáo hai câu hỏi." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "请___我一杯热水。", "vi": "Cho tôi một cốc nước nóng.", "options": ["一下", "可以", "给", "问题", "要"], "answer": 2 },
+    { "type": "fill", "source": "book", "sentence": "我们___一斤饺子。", "vi": "Chúng tôi lấy một cân sủi cảo.", "options": ["一下", "可以", "给", "问题", "要"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "我___坐这儿吗？——没问题，请坐。", "vi": "Tôi ngồi đây được không? — Không vấn đề gì, mời ngồi.", "options": ["一下", "可以", "给", "问题", "要"], "answer": 1 },
+    { "type": "fill", "source": "book", "sentence": "我可以坐这儿吗？——没___，请坐。", "vi": "Tôi ngồi đây được không? — Không vấn đề gì, mời ngồi.", "options": ["一下", "可以", "给", "问题", "要"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "这个商店卖不卖手机？——你可以去问___。", "vi": "Cửa hàng này có bán điện thoại không? — Bạn có thể đi hỏi thử.", "options": ["一下", "可以", "给", "问题", "要"], "answer": 0 },
+    { "type": "choice", "prompt": "“Cho tôi một cốc trà.”", "options": ["请给一杯茶我。", "请我给一杯茶。", "请给我一杯茶。", "请一杯茶给我。"], "answer": 2, "explain": "给 + người + vật: tân ngữ chỉ người đứng trước tân ngữ chỉ vật." },
+    { "type": "choice", "prompt": "“Mời nghỉ một chút.”", "options": ["请一下休息。", "请休息一下。", "请休息一个。", "一下请休息。"], "answer": 1, "explain": "“一下” đứng sau động từ." },
+    { "type": "order", "vi": "Em có thể hỏi cô thêm một câu nữa không ạ?", "tiles": ["我", "可以", "再", "问", "您", "一个", "问题", "吗", "？"], "answer": "我可以再问您一个问题吗？" },
+    { "type": "order", "vi": "Bạn có thể gọi điện hỏi thử.", "tiles": ["你", "可以", "打电话", "问", "一下", "。"], "answer": "你可以打电话问一下。" },
+    { "type": "order", "vi": "Cho tôi một cốc sữa.", "tiles": ["请", "给", "我", "一杯", "牛奶", "。"], "answer": "请给我一杯牛奶。" },
+    { "type": "listen", "source": "book", "say": "王老师，我可以再问您一个问题吗？", "prompt": "白家月想再问王老师（ ）。", "options": ["一个问题", "两个问题", "这个问题"], "answer": 0 },
+    { "type": "listen", "source": "book", "say": "那个小店卖不卖手机？我不知道。你可以打电话问一下。", "prompt": "王老师（ ）那里卖不卖手机。", "options": ["知道", "不知道", "也想知道"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "我看一下。请给我一杯牛奶。", "prompt": "王一雪要喝（ ）。", "options": ["水", "茶", "牛奶"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "我还没吃早饭，再要这个面包和鸡蛋吧。", "prompt": "王一雪还想吃（ ）。", "options": ["包子", "面条儿", "面包和鸡蛋"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "先生，请坐！您要什么？我要一斤饺子。", "prompt": "刘明想吃（ ）。", "options": ["米饭", "饺子", "米饭和饺子"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "您想喝什么？请给我一杯茶吧。", "prompt": "刘明想喝（ ）。", "options": ["水", "茶", "牛奶"], "answer": 1 }
+  ]
+}

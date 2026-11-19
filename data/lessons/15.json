@@ -1,0 +1,107 @@
+{
+  "id": 15,
+  "zh": "大兴机场见！",
+  "pinyin": "Dàxīng Jīchǎng jiàn!",
+  "vi": "Hẹn gặp ở sân bay Đại Hưng!",
+  "source": "Giáo trình New HSK 1, tr. 112–119",
+  "objectives": [
+    "Có thể nghe hiểu và sử dụng được các từ ngữ liên quan để diễn đạt ý định và kế hoạch du lịch.",
+    "Nắm vững câu ghép đẳng lập “……，还/也……”.",
+    "Hiểu về văn hoá bàn ăn và nghi lễ tiếp khách của Trung Quốc.",
+    "Hiểu về thủ đô Bắc Kinh của Trung Quốc."
+  ],
+  "speakers": {
+    "lw": { "zh": "李文", "pinyin": "Lǐ Wén", "vi": "Lý Văn" },
+    "jy": { "zh": "白家月", "pinyin": "Bái Jiāyuè", "vi": "Bạch Gia Nguyệt" },
+    "tz": { "zh": "陈天中", "pinyin": "Chén Tiānzhōng", "vi": "Trần Thiên Trung" },
+    "an": { "zh": "安妮", "pinyin": "Ānní", "vi": "Annie" },
+    "yf": { "zh": "王一飞", "pinyin": "Wáng Yīfēi", "vi": "Vương Nhất Phi (cô Vương)" }
+  },
+  "vocab": [
+    { "id": "15-01", "hanzi": "爱", "pinyin": "ài", "pos": "v", "vi": "thích, yêu thích" },
+    { "id": "15-02", "hanzi": "哪个", "pinyin": "nǎge", "pos": "pron", "vi": "cái nào, nào" },
+    { "id": "15-03", "hanzi": "去年", "pinyin": "qùnián", "pos": "n", "vi": "năm ngoái" },
+    { "id": "15-04", "hanzi": "男朋友", "pinyin": "nánpéngyou", "pos": "n", "vi": "bạn trai, người yêu" },
+    { "id": "15-05", "hanzi": "几", "pinyin": "jǐ", "pos": "num", "vi": "vài, mấy" },
+    { "id": "15-06", "hanzi": "年", "pinyin": "nián", "pos": "n", "vi": "năm" },
+    { "id": "15-07", "hanzi": "好玩儿", "pinyin": "hǎowánr", "pos": "adj", "vi": "vui, thích, thú vị" },
+    { "id": "15-p1", "hanzi": "西安", "pinyin": "Xī'ān", "pos": "n", "vi": "Tây An", "proper": true },
+    { "id": "15-p2", "hanzi": "北京", "pinyin": "Běijīng", "pos": "n", "vi": "Bắc Kinh", "proper": true },
+    { "id": "15-08", "hanzi": "飞机", "pinyin": "fēijī", "pos": "n", "vi": "máy bay" },
+    { "id": "15-09", "hanzi": "要", "pinyin": "yào", "pos": "v", "vi": "cần, mất (thời gian)" },
+    { "id": "15-10", "hanzi": "小时", "pinyin": "xiǎoshí", "pos": "n", "vi": "tiếng đồng hồ, giờ" },
+    { "id": "15-11", "hanzi": "家人", "pinyin": "jiārén", "pos": "n", "vi": "người nhà" },
+    { "id": "15-12", "hanzi": "时间", "pinyin": "shíjiān", "pos": "n", "vi": "thời gian" },
+    { "id": "15-13", "hanzi": "机场", "pinyin": "jīchǎng", "pos": "n", "vi": "sân bay" },
+    { "id": "15-14", "hanzi": "接", "pinyin": "jiē", "pos": "v", "vi": "đón, tiếp đón" },
+    { "id": "15-15", "hanzi": "住", "pinyin": "zhù", "pos": "v", "vi": "ở" },
+    { "id": "15-16", "hanzi": "早", "pinyin": "zǎo", "pos": "adj", "vi": "sớm" },
+    { "id": "15-17", "hanzi": "那", "pinyin": "nà", "pos": "conj", "vi": "vậy thì, thế thì" },
+    { "id": "15-p3", "hanzi": "大兴机场", "pinyin": "Dàxīng Jīchǎng", "pos": "n", "vi": "sân bay Đại Hưng", "proper": true }
+  ],
+  "texts": [
+    {
+      "id": "15-1", "title": "Bài khoá 1", "audio": "15-1",
+      "context": "Lý Văn mời các bạn Trần Thiên Trung, Bạch Gia Nguyệt thưởng thức món ăn Trung Quốc tại nhà mình.",
+      "note": "Mời người khác ăn nhiều hơn là một nét văn hoá trên bàn ăn của Trung Quốc, thể hiện sự nhiệt tình và hiếu khách của người Trung Quốc.",
+      "lines": [
+        { "s": "lw", "zh": "你们爱吃哪个菜？", "pinyin": "Nǐmen ài chī nǎge cài?", "vi": "Các bạn thích món ăn nào?" },
+        { "s": "jy", "zh": "我喜欢这个，也喜欢那个。", "pinyin": "Wǒ xǐhuan zhège, yě xǐhuan nàge.", "vi": "Mình thích món này, cũng thích món kia nữa." },
+        { "s": "tz", "zh": "这些菜都好吃，还很好看。", "pinyin": "Zhèxiē cài dōu hǎochī, hái hěn hǎokàn.", "vi": "Những món ăn này đều ngon, còn rất đẹp mắt nữa." },
+        { "s": "lw", "zh": "我爱吃中国菜，也喜欢做。大家多吃点儿。", "pinyin": "Wǒ ài chī Zhōngguó cài, yě xǐhuan zuò. Dàjiā duō chī diǎnr.", "vi": "Mình thích ăn món Trung Quốc, cũng rất thích nấu nữa. Mọi người ăn nhiều một chút nhé." }
+      ]
+    },
+    {
+      "id": "15-3", "title": "Bài khoá 2", "audio": "15-3",
+      "context": "Mọi người vừa ăn vừa thảo luận về kế hoạch kỳ nghỉ tại nhà Lý Văn.",
+      "lines": [
+        { "s": "lw", "zh": "你们都想去哪儿？", "pinyin": "Nǐmen dōu xiǎng qù nǎr?", "vi": "Các bạn đều muốn đi đâu vậy?" },
+        { "s": "an", "zh": "去年我和男朋友去了西安，今年我想去北京。", "pinyin": "Qùnián wǒ hé nánpéngyou qùle Xī'ān, jīnnián wǒ xiǎng qù Běijīng.", "vi": "Năm ngoái mình và bạn trai đã đi Tây An, năm nay mình muốn đi Bắc Kinh." },
+        { "s": "jy", "zh": "前几年我去了西安，非常好玩儿。今年我也想去北京。", "pinyin": "Qián jǐ nián wǒ qùle Xī'ān, fēicháng hǎowánr. Jīnnián wǒ yě xiǎng qù Běijīng.", "vi": "Mấy năm trước mình đã đi Tây An, rất vui. Năm nay mình cũng muốn đi Bắc Kinh." },
+        { "s": "lw", "zh": "我和王老师都是北京人，北京非常漂亮。", "pinyin": "Wǒ hé Wáng lǎoshī dōu shì Běijīng rén, Běijīng fēicháng piàoliang.", "vi": "Mình và cô Vương đều là người Bắc Kinh, Bắc Kinh rất đẹp." }
+      ]
+    },
+    {
+      "id": "15-5", "title": "Bài khoá 3", "audio": "15-5",
+      "context": "Bạch Gia Nguyệt, Annie và cô Vương đang nói chuyện về việc đi du lịch Bắc Kinh ở bên ngoài lớp học.",
+      "lines": [
+        { "s": "yf", "zh": "你们的飞机到北京要几个小时？", "pinyin": "Nǐmen de fēijī dào Běijīng yào jǐ gè xiǎoshí?", "vi": "Chuyến bay của các em đến Bắc Kinh mất mấy tiếng?" },
+        { "s": "jy", "zh": "九个小时。", "pinyin": "Jiǔ gè xiǎoshí.", "vi": "9 tiếng ạ." },
+        { "s": "yf", "zh": "我家人都在北京，星期天我姐姐也有时间，她可以去机场接你们，你们也可以住我家。", "pinyin": "Wǒ jiārén dōu zài Běijīng, Xīngqītiān wǒ jiějie yě yǒu shíjiān, tā kěyǐ qù jīchǎng jiē nǐmen, nǐmen yě kěyǐ zhù wǒ jiā.", "vi": "Người nhà cô đều ở Bắc Kinh, Chủ nhật chị gái cô cũng có thời gian, chị ấy có thể đi sân bay đón các em, các em cũng có thể ở nhà cô." },
+        { "s": "an", "zh": "我们星期日早上八点到大兴机场，早不早？", "pinyin": "Wǒmen Xīngqīrì zǎoshang bā diǎn dào Dàxīng Jīchǎng, zǎo bu zǎo?", "vi": "8 giờ sáng Chủ nhật chúng em đã đến sân bay Đại Hưng, có sớm không cô?" },
+        { "s": "yf", "zh": "不早。", "pinyin": "Bù zǎo.", "vi": "Không sớm đâu." },
+        { "s": "jy", "zh": "谢谢老师！那我们和您姐姐在大兴机场见！", "pinyin": "Xièxie lǎoshī! Nà wǒmen hé nín jiějie zài Dàxīng Jīchǎng jiàn!", "vi": "Cảm ơn cô ạ! Vậy chúng em hẹn gặp chị cô ở sân bay Đại Hưng nhé!" }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "15-g1", "zh": "并列复句“……，还/也……”", "vi": "Câu ghép đẳng lập “……，还/也……”",
+      "explain": "Câu ghép đẳng lập là câu được tạo bởi hai hay nhiều vế câu có liên quan về mặt logic và đối xứng với nhau về mặt cấu trúc. Trong quyển sách này giới thiệu câu ghép đẳng lập “……，还/也……”.",
+      "pattern": "Vế 1，(Chủ ngữ) + 还/也 + Vế 2",
+      "examples": [
+        { "zh": "我喜欢这个，也喜欢那个。", "pinyin": "Wǒ xǐhuan zhège, yě xǐhuan nàge.", "vi": "Mình thích cái này, cũng thích cái kia." },
+        { "zh": "王老师是北京人，李文也是北京人。", "pinyin": "Wáng lǎoshī shì Běijīng rén, Lǐ Wén yě shì Běijīng rén.", "vi": "Cô Vương là người Bắc Kinh, Lý Văn cũng là người Bắc Kinh." },
+        { "zh": "我喜欢喝中国茶，还喜欢吃中国菜。", "pinyin": "Wǒ xǐhuan hē Zhōngguó chá, hái xǐhuan chī Zhōngguó cài.", "vi": "Mình thích uống trà Trung Quốc, còn thích ăn món Trung Quốc nữa." }
+      ]
+    }
+  ],
+  "exercises": [
+    { "type": "fill", "source": "book", "sentence": "这本书有15课，我们___学了。", "vi": "Quyển sách này có 15 bài, chúng mình đều học xong rồi.", "options": ["爱", "时间", "早不早", "都", "飞机"], "answer": 3 },
+    { "type": "fill", "source": "book", "sentence": "我的家人都___喝茶。", "vi": "Người nhà mình đều thích uống trà.", "options": ["爱", "时间", "早不早", "都", "飞机"], "answer": 0 },
+    { "type": "fill", "source": "book", "sentence": "我们明天晚上六点到，你觉得___？——不早。", "vi": "Tối mai 6 giờ chúng mình đến, bạn thấy có sớm không? — Không sớm.", "options": ["爱", "时间", "早不早", "都", "飞机"], "answer": 2 },
+    { "type": "fill", "source": "book", "sentence": "她们想坐___去北京，你们呢？", "vi": "Họ muốn đi máy bay đến Bắc Kinh, còn các bạn?", "options": ["爱", "时间", "早不早", "都", "飞机"], "answer": 4 },
+    { "type": "fill", "source": "book", "sentence": "我们没有___，不能出去玩。", "vi": "Chúng mình không có thời gian, không thể ra ngoài chơi.", "options": ["爱", "时间", "早不早", "都", "飞机"], "answer": 1 },
+    { "type": "choice", "prompt": "“Mình thích uống trà Trung Quốc, còn thích ăn món Trung Quốc nữa.”", "options": ["我喜欢喝中国茶，还喜欢吃中国菜。", "我喜欢喝中国茶，喜欢还吃中国菜。", "我还喜欢喝中国茶，吃中国菜。", "我喜欢喝中国茶，吃还中国菜。"], "answer": 0, "explain": "“还/也” đứng trước động từ của vế sau." },
+    { "type": "choice", "prompt": "Chuyến bay đến Bắc Kinh mất mấy tiếng? Chọn câu đúng.", "options": ["飞机到北京几个小时要？", "飞机到北京要几个小时？", "飞机要到北京几个小时？", "几个小时飞机到北京要？"], "answer": 1 },
+    { "type": "order", "vi": "Hẹn gặp ở sân bay Đại Hưng!", "tiles": ["我们", "在", "大兴机场", "见", "！"], "answer": "我们在大兴机场见！" },
+    { "type": "order", "vi": "Năm ngoái mình đã đi Tây An, năm nay mình muốn đi Bắc Kinh.", "tiles": ["去年", "我", "去了", "西安", "，", "今年", "我", "想", "去", "北京", "。"], "answer": "去年我去了西安，今年我想去北京。" },
+    { "type": "order", "vi": "Những món này đều ngon, còn rất đẹp mắt.", "tiles": ["这些", "菜", "都", "好吃", "，", "还", "很", "好看", "。"], "answer": "这些菜都好吃，还很好看。" },
+    { "type": "listen", "source": "book", "say": "你们爱吃哪个菜？", "prompt": "李文问大家（ ）吃哪个菜。", "options": ["好", "爱", "不爱"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "我爱吃中国菜，也喜欢做。大家多吃点儿。", "prompt": "李文说：“大家（ ）。”", "options": ["吃点儿", "少吃点儿", "多吃点儿"], "answer": 2 },
+    { "type": "listen", "source": "book", "say": "去年我和男朋友去了西安，今年我想去北京。", "prompt": "安妮和她男朋友去年去了（ ）。", "options": ["西安", "北京", "学校"], "answer": 0 },
+    { "type": "listen", "source": "book", "say": "我和王老师都是北京人，北京非常漂亮。", "prompt": "王老师和李文都是（ ）。", "options": ["西安人", "北京人", "哪里人"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "你们的飞机到北京要几个小时？九个小时。", "prompt": "白家月和安妮坐（ ）去北京。", "options": ["火车", "飞机", "出租车"], "answer": 1 },
+    { "type": "listen", "source": "book", "say": "我家人都在北京。", "prompt": "王老师的（ ）都在北京。", "options": ["家人", "朋友", "学生"], "answer": 0 }
+  ]
+}
