@@ -266,6 +266,25 @@ window.addEventListener('hashchange', route);
 route();
 
 // Offline support / "Add to Home Screen" on iPhone.
+// When a new version is published, the new service worker takes over and the
+// page reloads once so the update shows without closing the app.
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch((e) => console.warn('SW', e)));
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    reloading = true;
+    location.reload();
+  });
+  window.addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('sw.js');
+      // An installed iPhone app is often resumed rather than reopened, so check for updates then too.
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') reg.update().catch(() => {});
+      });
+    } catch (e) {
+      console.warn('SW', e);
+    }
+  });
 }
