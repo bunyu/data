@@ -1,4 +1,9 @@
 /* HSK 1 — minimalist, mobile-first */
+/* Chinese fonts bundled with the app (subsets of Noto Sans SC / Noto Serif SC, SIL OFL), built by tools/build_fonts.py. */
+@font-face { font-family: "HSK Sans"; font-weight: 400; font-display: swap; src: url("../fonts/noto-sans-sc-400.woff2") format("woff2"); }
+@font-face { font-family: "HSK Sans"; font-weight: 500 700; font-display: swap; src: url("../fonts/noto-sans-sc-500.woff2") format("woff2"); }
+@font-face { font-family: "HSK Serif"; font-weight: 400 700; font-display: swap; src: url("../fonts/noto-serif-sc-500.woff2") format("woff2"); }
+
 :root {
   --bg: #f6f4ef;
   --surface: #ffffff;
@@ -16,8 +21,8 @@
   --radius: 14px;
   --tabbar-h: 64px;
   --font-ui: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  --font-zh: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  --font-zh-serif: "Noto Serif SC", "Songti SC", "STSong", serif;
+  --font-zh: "HSK Sans", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-zh-serif: "HSK Serif", "Noto Serif SC", "Songti SC", "STSong", serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -206,11 +211,11 @@ button { font: inherit; color: inherit; }
 .line:first-of-type { border-top: 0; }
 .line .who { font-size: 13px; color: var(--muted); padding-top: 4px; }
 .line .who .zh { display: block; font-size: 14px; color: var(--ink); }
-.line .say {
+.say {
   font-family: var(--font-zh); font-size: 21px; line-height: 1.45; cursor: pointer; border-radius: 6px;
   background: none; border: 0; padding: 0; text-align: left;
 }
-.line .say:active, .line .say.playing { color: var(--accent); }
+.say:active, .say.playing { color: var(--accent); }
 .line .py { display: block; color: var(--accent); font-size: 14px; margin-top: 2px; }
 .line .vi { display: block; font-size: 14px; margin-top: 4px; }
 .rhyme .zh { font-family: var(--font-zh-serif); font-size: 22px; }
@@ -339,6 +344,90 @@ select { min-height: 40px; border-radius: 10px; border: 1px solid var(--line); b
 .stats .card { padding: 12px; text-align: center; }
 .stats b { display: block; font-size: 22px; font-weight: 600; }
 .stats span { font-size: 12px; color: var(--muted); }
+
+/* ---------- Home: goal, tools, lesson progress ---------- */
+.goal { display: flex; align-items: center; gap: 12px; margin-top: 10px; padding: 10px 4px; font-size: 14px; color: var(--muted); }
+.goal > span:first-child { flex: none; font-variant-numeric: tabular-nums; }
+.goal-bar { flex: 1; height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; }
+.goal-bar i { display: block; height: 100%; background: var(--ok); border-radius: 3px; }
+.tools { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 6px; }
+.tool { display: block; padding: 12px; }
+.tool b { display: block; font-weight: 500; font-size: 15px; }
+.tool span { display: block; font-size: 12px; color: var(--muted); line-height: 1.35; margin-top: 2px; }
+.lesson-prog { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; font-variant-numeric: tabular-nums; }
+
+/* ---------- Texts: line tools, playing line, reading mode ---------- */
+.say-row { display: flex; align-items: flex-start; gap: 6px; }
+.say-row .say { flex: 1; min-width: 0; }
+.line-tools { display: inline-flex; align-items: center; flex: none; }
+.line-tools .icon-btn { width: 34px; height: 34px; }
+.slow-btn {
+  flex: none; min-width: 40px; height: 30px; margin-top: 2px; padding: 0 6px; border-radius: 15px; border: 1px solid var(--line);
+  background: transparent; color: var(--muted); font-size: 12px; cursor: pointer; font-variant-numeric: tabular-nums;
+}
+.slow-btn.playing { color: var(--accent); border-color: var(--accent); }
+.speaking { background: var(--accent-soft); border-radius: 10px; box-shadow: 0 0 0 6px var(--accent-soft); }
+.line.speaking { border-top-color: transparent; }
+.say.reading { cursor: auto; }
+.say.reading .w {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0 1px; margin: 0; cursor: pointer;
+  border-bottom: 1px dashed var(--line); border-radius: 0;
+}
+.say.reading .w:active, .say.reading .w:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.rhyme .say { font-family: var(--font-zh-serif); font-size: 22px; }
+.rhyme-line { margin-top: 8px; }
+
+/* ---------- Word sheet ---------- */
+.sheet-wrap { position: fixed; inset: 0; z-index: 100; background: rgb(0 0 0 / .32); display: flex; align-items: flex-end; justify-content: center; }
+.sheet {
+  width: 100%; max-width: 640px; background: var(--surface); border-radius: 18px 18px 0 0;
+  padding: 18px 18px calc(22px + env(safe-area-inset-bottom)); box-shadow: 0 -6px 24px rgb(0 0 0 / .15);
+  animation: sheet-up .18s ease-out;
+}
+@keyframes sheet-up { from { transform: translateY(24px); } }
+.sheet-top { display: flex; align-items: center; gap: 6px; }
+.sheet-top .hz { font-size: 40px; line-height: 1.2; margin-right: 4px; }
+.sheet-close { margin-left: auto; font-size: 26px; line-height: 1; }
+.sheet .py { color: var(--accent); font-size: 18px; margin-top: 2px; }
+.sheet .vi { font-size: 16px; margin-top: 4px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.sheet .pos { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 0 6px; line-height: 20px; }
+@media (min-width: 720px) {
+  .sheet-wrap { align-items: center; }
+  .sheet { border-radius: 18px; }
+}
+
+/* ---------- Word list ---------- */
+.search {
+  width: 100%; min-height: 48px; padding: 0 14px; border-radius: 12px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); font: inherit; font-size: 16px;
+}
+.search:focus { outline: 2px solid var(--ink); outline-offset: -1px; }
+ul.list-card { list-style: none; margin: 0; padding: 0; }
+.wl-head { display: block; }
+.wl-row { display: flex; align-items: center; gap: 8px; padding: 4px 8px 4px 0; }
+.wl-row + .wl-row { border-top: 1px solid var(--line); }
+.wl-main { flex: 1; min-width: 0; display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: baseline; padding: 8px 0 8px 14px; background: none; border: 0; text-align: left; cursor: pointer; }
+.wl-main .hz { grid-row: span 2; font-size: 22px; min-width: 2.4em; }
+.wl-main .py { color: var(--accent); font-size: 14px; }
+.wl-main .vi { font-size: 14px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dot { flex: none; width: 8px; height: 8px; border-radius: 4px; background: var(--accent); opacity: .5; }
+.dot.mastered { background: var(--ok); opacity: 1; }
+.dot.empty { background: transparent; }
+
+/* ---------- Tones, typing pinyin, mistakes ---------- */
+.py-input { width: 100%; min-height: 52px; margin-top: 16px; padding: 0 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit; font-size: 20px; text-align: center; }
+.py-input:focus { outline: 2px solid var(--ink); outline-offset: -1px; }
+.py-input.is-ok { border-color: var(--ok); background: var(--ok-soft); outline: 0; }
+.py-input.is-bad { border-color: var(--bad); background: var(--bad-soft); outline: 0; }
+.py-preview { min-height: 28px; text-align: center; color: var(--accent); font-size: 18px; margin-top: 6px; }
+.tone-help { margin-top: 12px; }
+.tone-help ul { margin: 0 0 8px; padding-left: 18px; }
+.tone-help b { display: inline-block; min-width: 56px; font-weight: 500; }
+.mk-list li { display: flex; justify-content: space-between; gap: 12px; padding: 12px 16px; }
+.mk-list li + li { border-top: 1px solid var(--line); }
+.sync .steps { padding-left: 18px; margin: 0 0 12px; }
+.sync .steps a { text-decoration: underline; }
+.sync .bad { color: var(--bad); }
 
 @media (min-width: 720px) {
   .view { padding-top: 32px; }

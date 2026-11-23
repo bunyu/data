@@ -85,3 +85,9 @@ python3 tools/vendor_hanzi.py package/
 ```
 
 Nếu thiếu, ứng dụng tự tải từ CDN jsDelivr.
+
+## Sau khi thêm hoặc sửa nội dung
+
+- Tăng `VERSION` trong `sw.js`.
+- Nếu có chữ Hán mới, chạy lại `tools/build_fonts.py` (hướng dẫn ở đầu file) để phông chữ đi kèm có đủ chữ.
+  Chữ thiếu vẫn hiện bằng phông của máy, chỉ trông hơi khác.

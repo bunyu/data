@@ -1,12 +1,14 @@
 // Offline support: the app, lessons and handwriting data are cached on first visit.
 // Bump VERSION when shipping changes so old caches are cleared.
-const VERSION = 'hsk1-v3';
+const VERSION = 'hsk1-v4';
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'icon.svg',
   'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png',
   'css/app.css',
   'js/main.js', 'js/ui.js', 'js/store.js', 'js/data.js', 'js/audio.js',
   'js/exercises.js', 'js/review.js', 'js/write.js',
+  'js/pinyin.js', 'js/words.js', 'js/drills.js', 'js/sync.js',
+  'fonts/noto-sans-sc-400.woff2', 'fonts/noto-sans-sc-500.woff2', 'fonts/noto-serif-sc-500.woff2',
   'vendor/hanzi-writer/hanzi-writer.min.js',
   'data/course.json',
 ];
@@ -42,6 +44,8 @@ self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
+  // Sync talks to GitHub directly and must never be answered from the cache.
+  if (url.origin !== location.origin && url.hostname !== 'cdn.jsdelivr.net') return;
   // Audio uses range requests; let the browser handle it directly.
   if (url.pathname.endsWith('.mp3') || req.headers.has('range')) return;
 

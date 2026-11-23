@@ -32,10 +32,12 @@ export async function reviewView(params) {
 
   const front = () => store.settings().cardFront;
   const flip = h('button', { class: 'chip', type: 'button' });
-  const setFlipLabel = () => { flip.textContent = front() === 'hanzi' ? 'Hán → Việt' : 'Việt → Hán'; };
+  const MODES = { hanzi: 'Hán → Việt', vi: 'Việt → Hán', audio: 'Nghe → Hán' };
+  const order = Object.keys(MODES);
+  const setFlipLabel = () => { flip.textContent = MODES[front()] || MODES.hanzi; flip.setAttribute('aria-label', `Kiểu thẻ: ${flip.textContent}. Chạm để đổi`); };
   setFlipLabel();
   flip.addEventListener('click', () => {
-    store.update((s) => { s.settings.cardFront = front() === 'hanzi' ? 'vi' : 'hanzi'; });
+    store.update((s) => { s.settings.cardFront = order[(order.indexOf(front()) + 1) % order.length]; });
     setFlipLabel();
     show();
   });
@@ -68,7 +70,15 @@ export async function reviewView(params) {
     const showGrades = () => { grades.hidden = false; showBtn.hidden = true; };
 
     let card;
-    if (front() === 'hanzi') {
+    if (front() === 'audio') {
+      const hz = masked(w.hanzi, 'Hiện chữ Hán', 'hz');
+      const py = reveal(w.pinyin, 'pinyin', 'py');
+      const vi = reveal(w.vi, 'meaning', 'vi');
+      hz.addEventListener('click', showGrades);
+      const big = bindPlay(h('button', { class: 'listen-btn', type: 'button', 'aria-label': 'Nghe lại' }, icon('speaker')), () => speak(w.hanzi));
+      card = h('div', { class: 'flash-card' }, big, hz, py, vi);
+      setTimeout(() => { if (big.isConnected) speak(w.hanzi); }, 300);
+    } else if (front() === 'hanzi') {
       const py = reveal(w.pinyin, 'pinyin', 'py');
       const vi = reveal(w.vi, 'meaning', 'vi');
       [py, vi].forEach((r) => r.addEventListener('click', showGrades));
@@ -82,7 +92,7 @@ export async function reviewView(params) {
     const showBtn = h('button', { class: 'btn btn-block', type: 'button', style: 'margin-top:12px' }, 'Hiện đáp án');
     showBtn.addEventListener('click', () => {
       card.querySelectorAll('.reveal').forEach((r) => r.classList.remove('is-hidden'));
-      if (front() === 'vi') speak(w.hanzi);
+      if (front() !== 'hanzi') speak(w.hanzi);
       showGrades();
     });
 

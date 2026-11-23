@@ -1,7 +1,9 @@
 // Exercise runner: multiple choice, fill-in-the-blank, sentence ordering
-// (translation), and listening. One question per screen, answers in the thumb zone.
+// (translation), listening and tones. One question per screen, answers in the thumb zone.
+// Questions and their options are shuffled every run; wrong answers can be redone.
 import { h, icon, shuffle, reveal } from './ui.js';
 import { speak, bindPlay } from './audio.js';
+import { tonesOf, tonePattern, samePinyin, numberedToMarks } from './pinyin.js';
 
 const KIND = {
   choice: 'Chọn đáp án',
@@ -11,7 +13,36 @@ const KIND = {
   meaning: 'Chọn nghĩa',
   hanzi: 'Chọn chữ Hán',
   hear: 'Nghe và chọn từ',
+  tone: 'Nghe và chọn thanh điệu',
+  typepy: 'Gõ pinyin',
 };
+
+/** Same question with its options in a new order (the answer index follows). */
+function shuffleOptions(q) {
+  if (!Array.isArray(q.options) || typeof q.answer !== 'number') return q;
+  const order = shuffle(q.options.map((_, i) => i));
+  return { ...q, options: order.map((i) => q.options[i]), answer: order.indexOf(q.answer) };
+}
+
+/** Tone drills for words whose pinyin lines up with their characters. */
+export function toneDrills(words, n = 10, kind = 'tone') {
+  const usable = words.filter((w) => !w.proper && tonesOf(w));
+  return shuffle(usable).slice(0, n).map((w) => {
+    if (kind === 'typepy') return { type: 'typepy', word: w, key: `py:${w.id}` };
+    const tones = tonesOf(w);
+    const right = tonePattern(tones);
+    const opts = new Set([right]);
+    for (let tries = 0; opts.size < 4 && tries < 60; tries++) {
+      const t = tones.slice();
+      const k = Math.floor(Math.random() * t.length);
+      t[k] = 1 + Math.floor(Math.random() * 4);
+      if (tries > 20 && t.length > 1) t[(k + 1) % t.length] = 1 + Math.floor(Math.random() * 4);
+      opts.add(tonePattern(t));
+    }
+    const options = shuffle([...opts]);
+    return { type: 'tone', word: w, options, answer: options.indexOf(right), key: `tone:${w.id}` };
+  });
+}
 
 const PUNCT = /[，。！？、,.!?\s]/g;
 const isPunct = (t) => t.replace(PUNCT, '') === '';
@@ -25,18 +56,25 @@ export function vocabDrills(words, pool, n = 8) {
   const kinds = ['meaning', 'hanzi', 'hear'];
   return shuffle(usable).slice(0, n).map((w, i) => {
     const type = kinds[i % kinds.length];
+    const key = `${type}:${w.id}`;
     if (type === 'meaning') {
       const options = pick(w, 'vi');
-      return { type, word: w, options, answer: options.indexOf(w.vi) };
+      return { type, word: w, options, answer: options.indexOf(w.vi), key };
     }
     const options = pick(w, 'hanzi');
-    return { type, word: w, options, answer: options.indexOf(w.hanzi) };
+    return { type, word: w, options, answer: options.indexOf(w.hanzi), key };
   });
 }
 
-export function runExercises(container, items, { onDone } = {}) {
+/**
+ * onDone(pct) after a full run (not after redoing mistakes);
+ * onAnswer(question, ok) after every answer (mistake notebook).
+ */
+export function runExercises(container, input, { onDone, onAnswer, retry = false } = {}) {
+  const items = shuffle(input).map(shuffleOptions);
   let i = 0;
   let correct = 0;
+  const wrong = [];
 
   const bar = h('i', { style: 'width:0%' });
   const body = h('div', { class: 'ex-wrap' });
@@ -50,6 +88,8 @@ export function runExercises(container, items, { onDone } = {}) {
 
   function feedback(ok, detail) {
     if (ok) correct++;
+    else wrong.push(items[i]);
+    onAnswer?.(items[i], ok);
     const btn = h('button', { class: 'btn btn-primary btn-block', type: 'button', onClick: next }, i + 1 >= items.length ? 'Xem kết quả' : 'Tiếp tục');
     const fb = h('div', { class: `feedback ${ok ? 'ok' : 'bad'}`, role: 'status' },
       h('div', { class: 'verdict' }, ok ? 'Chính xác' : 'Chưa đúng'),
@@ -79,6 +119,7 @@ export function runExercises(container, items, { onDone } = {}) {
   }
 
   const playButton = (text) => bindPlay(h('button', { class: 'listen-btn', type: 'button', 'aria-label': 'Nghe lại' }, icon('speaker')), () => speak(text));
+  const playButtonSmall = (text) => bindPlay(h('button', { class: 'icon-btn', type: 'button', 'aria-label': 'Nghe' }, icon('speaker')), () => speak(text));
 
   function show() {
     const q = items[i];
@@ -132,7 +173,44 @@ export function runExercises(container, items, { onDone } = {}) {
       setTimeout(() => pb.click(), 250);
     }
 
+    if (q.type === 'tone') {
+      body.append(h('div', { class: 'q-prompt' }, 'Nghe và chọn thanh điệu của từ'));
+      const pb = playButton(q.word.hanzi);
+      body.append(pb);
+      body.append(optionButtons(q, { onPick: (ok) => feedback(ok, wordDetail(q.word)) }));
+      setTimeout(() => pb.click(), 250);
+    }
+
+    if (q.type === 'typepy') renderTypePinyin(q);
+
     if (q.type === 'order') renderOrder(q);
+  }
+
+  function renderTypePinyin(q) {
+    body.append(h('div', { class: 'q-big' }, q.word.hanzi));
+    body.append(h('div', { class: 'q-hint', style: 'text-align:center' }, reveal(q.word.vi, 'meaning'), ' ', playButtonSmall(q.word.hanzi)));
+    const input = h('input', {
+      class: 'py-input', type: 'text', inputmode: 'latin', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false',
+      placeholder: 'vd. ni3 hao3', 'aria-label': 'Pinyin kèm số thanh điệu',
+    });
+    const preview = h('div', { class: 'py-preview', 'aria-live': 'polite' });
+    input.addEventListener('input', () => { preview.textContent = numberedToMarks(input.value); });
+    const check = h('button', { class: 'btn btn-primary btn-block', type: 'button' }, 'Kiểm tra');
+    const submit = () => {
+      if (check.disabled || !input.value.trim()) return;
+      check.disabled = true;
+      input.readOnly = true;
+      const ok = samePinyin(input.value, q.word.pinyin);
+      input.classList.add(ok ? 'is-ok' : 'is-bad');
+      check.remove();
+      feedback(ok, wordDetail(q.word));
+    };
+    check.addEventListener('click', submit);
+    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); submit(); } });
+    body.append(input, preview,
+      h('p', { class: 'small muted' }, 'Gõ số thanh sau mỗi âm tiết (1–4, thanh nhẹ không cần số). Dùng v cho ü: nv3 = nǚ.'),
+      h('div', { style: 'margin-top:auto;padding-top:16px' }, check));
+    setTimeout(() => input.focus(), 50);
   }
 
   function wordDetail(w) {
@@ -184,13 +262,16 @@ export function runExercises(container, items, { onDone } = {}) {
 
   function finish() {
     const pct = Math.round((correct / items.length) * 100);
-    onDone?.(pct);
+    if (!retry) onDone?.(pct);
+    const redo = wrong.length && h('button', { class: 'btn btn-accent btn-block', type: 'button', style: 'margin-top:24px',
+      onClick: () => runExercises(container, wrong, { onAnswer, retry: true }) }, `Làm lại ${wrong.length} câu sai`);
     body.replaceChildren(h('div', { class: 'result' },
       h('div', { class: 'score' }, `${correct}/${items.length}`),
-      h('p', { class: 'muted' }, pct >= 80 ? 'Rất tốt. Bạn đã nắm vững phần này.' : pct >= 50 ? 'Khá ổn. Ôn lại những câu sai rồi thử lần nữa.' : 'Hãy xem lại từ vựng và bài khoá, sau đó làm lại.'),
-      h('div', { class: 'btn-row', style: 'margin-top:24px' },
-        h('button', { class: 'btn', type: 'button', onClick: () => runExercises(container, shuffle(items), { onDone }) }, 'Làm lại'),
-        h('a', { class: 'btn btn-primary', href: '#/' }, 'Về danh sách bài'))));
+      h('p', { class: 'muted' }, pct === 100 ? 'Đúng hết. Bạn đã nắm vững phần này.' : pct >= 80 ? 'Rất tốt. Làm lại vài câu sai là xong.' : pct >= 50 ? 'Khá ổn. Làm lại những câu sai rồi thử lần nữa.' : 'Hãy xem lại từ vựng và bài khoá, sau đó làm lại.'),
+      redo,
+      h('div', { class: 'btn-row', style: 'margin-top:12px' },
+        h('button', { class: 'btn', type: 'button', onClick: () => runExercises(container, input, { onDone, onAnswer, retry }) }, 'Làm lại tất cả'),
+        h('a', { class: 'btn btn-primary', href: '#/' }, 'Về trang chính'))));
   }
 
   show();
